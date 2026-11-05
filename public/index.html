@@ -7,7 +7,7 @@
 </head>
 <body>
   <header class="topbar">
-    <nav aria-label="主导航"><button class="nav active" data-view="kpop">K-pop 活动</button><button class="nav" data-view="events">韩国旅行活动</button><button class="nav" data-view="calendar">全年回归日历</button><button class="nav" data-view="sources">情报中心</button></nav>
+    <nav aria-label="主导航"><button class="nav active" data-view="kpop">K-pop 活动</button><button class="nav" data-view="events">韩国旅行活动</button><button class="nav" data-view="calendar">全年回归日历</button></nav>
     <button id="updateBtn" class="update-btn"><span class="pulse-mini"></span> 云端自动更新</button>
   </header>
 
@@ -19,7 +19,7 @@
       </div>
       <section class="search-panel" aria-label="K-pop 活动筛选">
         <label class="search"><span>⌕</span><input id="kpopQuery" placeholder="搜索团体、成员、活动或地点"></label>
-        <div class="filter-row"><input type="date" id="kpopFrom"><input type="date" id="kpopTo"><select id="kpopType"><option value="">所有类型</option><option>回归发行</option><option>Showcase</option><option>预录</option><option>公开录制</option><option>颁奖典礼</option><option>路演</option><option>演唱会</option><option>Fan Meeting</option><option>品牌站台</option><option>其他</option></select><select id="kpopStatus"><option value="">所有核实状态</option><option value="confirmed">已核实</option><option value="lead">实时线索</option></select><button id="kpopReset" class="ghost">清除</button></div>
+        <div class="filter-row"><input type="date" id="kpopFrom"><input type="date" id="kpopTo"><select id="kpopType"><option value="">所有类型</option><option>回归发行</option><option value="SC">SC（电视台放送）</option><option>其他</option></select><select id="kpopStatus"><option value="">所有核实状态</option><option value="confirmed">已核实</option><option value="lead">实时线索</option></select><button id="kpopReset" class="ghost">清除</button></div>
       </section>
       <div class="result-head"><div><span class="kicker">LIVE K-POP SCHEDULE</span><h2>活动时间线</h2></div><p id="kpopCount"></p></div>
       <section id="kpopTimeline" class="timeline" aria-live="polite"></section>
@@ -54,18 +54,6 @@
       <div class="legend"><span><i class="dot confirmed"></i>已核实发行</span><span><i class="dot solo"></i>Solo</span><span>无数据＝暂无已核实发行，不代表绝对没有活动</span></div>
     </section>
 
-    <section id="sourcesView" class="view hidden">
-      <div class="section-hero"><p class="eyebrow">INTELLIGENCE DESK</p><h1>情报中心</h1><p>更新器先把新发现放进“待核实线索”，不会未经确认直接发布为正式活动。</p></div>
-      <div class="status-grid">
-        <article class="status-card"><span>最近更新</span><strong id="statusTime">—</strong><p id="statusMessage">—</p></article>
-        <article class="status-card accent"><span>待核实线索</span><strong id="leadCount">0</strong><p>最多保留最近 200 条，正式活动数据不会被覆盖。</p></article>
-        <article class="status-card"><span>正式活动</span><strong id="eventCount">0</strong><p>来源、日期、费用和参与方式分字段保存。</p></article>
-      </div>
-      <div class="source-layout">
-        <section><div class="result-head"><div><span class="kicker">REVIEW QUEUE</span><h2>最新线索</h2></div></div><div id="leads" class="leads"></div></section>
-        <aside class="method"><h3>检索机制</h3><ol><li><b>韩语组合检索</b><span>城市 × 日期 × 类型 × 参与方式</span></li><li><b>可信来源优先</b><span>政府/主办方 → 场馆 → 票务 → 社交媒体</span></li><li><b>先发现，后核实</b><span>候选线索不会自动混入正式活动</span></li><li><b>稳定去重</b><span>以来源链接与活动指纹合并重复项</span></li></ol><p class="note">提示：自动更新依赖网络。新闻线索仅用于发现，参与前务必打开官方来源确认变更。</p></aside>
-      </div>
-    </section>
   </main>
 
   <dialog id="detail"><button class="close" aria-label="关闭">×</button><div id="detailBody"></div></dialog>

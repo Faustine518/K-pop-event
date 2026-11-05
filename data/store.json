@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T15:30:00+08:00",
+  "updatedAt": "2026-11-05T07:49:36.351Z",
   "events": [
     {
       "id": "seoul-autumn-festa-2026",
@@ -148,45 +148,2134 @@
       "tips": "优先使用地铁，留意官方安全及交通公告。"
     }
   ],
+  "kpopEvents": [
+    {
+      "id": "event-hwang-min-hyun-2026-fanmeeting-seoul",
+      "date": "2026-10-16",
+      "endDate": "2026-10-18",
+      "artists": [
+        "황민현"
+      ],
+      "title": "황민현 2026 황민현 팬미팅 [도원경] - 서울",
+      "type": "Fan Meeting",
+      "venue": "코엑스아티움 우리은행홀",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/hwang-min-hyun-2026-fanmeeting-seoul",
+      "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "event-illit-2026-press-start-encore",
+      "date": "2026-10-17",
+      "endDate": "2026-10-18",
+      "artists": [
+        "아일릿"
+      ],
+      "title": "아일릿 ILLIT LIVE 'PRESS START♥' ENCORE in KOREA",
+      "type": "演唱会",
+      "venue": "인스파이어 아레나",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/illit-2026-press-start-encore",
+      "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "event-woodz-2026-seoul-encore-concert",
+      "date": "2026-10-31",
+      "endDate": "2026-11-01",
+      "artists": [
+        "우즈"
+      ],
+      "title": "우즈 2026 WOODZ WORLD TOUR Archive. 1 : Completed",
+      "type": "演唱会",
+      "venue": "KSPO DOME",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/woodz-2026-seoul-encore-concert",
+      "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "kp-20261106-exo",
+      "date": "2026-11-06",
+      "endDate": "2026-11-08",
+      "artists": [
+        "EXO"
+      ],
+      "title": "EXO PLANET #6 - EXhOrizon [dot] -",
+      "type": "演唱会",
+      "venue": "KSPO DOME",
+      "city": "首尔",
+      "participation": "需购票",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/calendar?m=2026-11",
+      "sourceName": "K-pop Today（附官方来源）"
+    },
+    {
+      "id": "kp-20261106-changmin",
+      "date": "2026-11-06",
+      "endDate": "2026-11-08",
+      "artists": [
+        "MAX CHANGMIN"
+      ],
+      "title": "MAX CHANGMIN LIVE SESSION : RESONANCE",
+      "type": "演唱会",
+      "venue": "YES24 LIVE HALL",
+      "city": "首尔",
+      "participation": "需购票",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/calendar?m=2026-11",
+      "sourceName": "K-pop Today（附官方来源）"
+    },
+    {
+      "id": "event-exo-2026-planet-6-exhorizon-dot-seoul",
+      "date": "2026-11-06",
+      "endDate": "2026-11-08",
+      "artists": [
+        "엑소"
+      ],
+      "title": "엑소 EXO PLANET #6 - EXhOrizon [dot] -",
+      "type": "其他",
+      "venue": "KSPO DOME",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/exo-2026-planet-6-exhorizon-dot-seoul",
+      "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "event-max-changmin-2026-live-session-resonance",
+      "date": "2026-11-06",
+      "endDate": "2026-11-08",
+      "artists": [
+        "최강창민"
+      ],
+      "title": "최강창민 MAX CHANGMIN LIVE SESSION : RESONANCE",
+      "type": "演唱会",
+      "venue": "YES24 라이브홀",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/max-changmin-2026-live-session-resonance",
+      "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "kp-20261113-xdh",
+      "date": "2026-11-13",
+      "endDate": "2026-11-15",
+      "artists": [
+        "Xdinary Heroes"
+      ],
+      "title": "Xdinary Heroes Concert 〈IMPULSE〉",
+      "type": "演唱会",
+      "venue": "Inspire Arena",
+      "city": "仁川",
+      "participation": "需购票",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/calendar?m=2026-11",
+      "sourceName": "K-pop Today（附官方来源）"
+    },
+    {
+      "id": "event-xdinary-heroes-2026-concert-impulse",
+      "date": "2026-11-13",
+      "endDate": "2026-11-15",
+      "artists": [
+        "엑스디너리 히어로즈"
+      ],
+      "title": "엑스디너리 히어로즈 Xdinary Heroes Concert 〈IMPULSE〉",
+      "type": "演唱会",
+      "venue": "인스파이어 아레나",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/xdinary-heroes-2026-concert-impulse",
+      "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "kp-20261114-eric",
+      "date": "2026-11-14",
+      "endDate": "2026-11-14",
+      "artists": [
+        "ERIC",
+        "THE BOYZ"
+      ],
+      "title": "꽃보다 손영재",
+      "type": "Fan Meeting",
+      "venue": "光云大学东海文化艺术馆",
+      "city": "首尔",
+      "participation": "需购票",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/calendar?m=2026-11",
+      "sourceName": "K-pop Today（附官方来源）"
+    },
+    {
+      "id": "event-eric-2026-fanmeeting-seoul",
+      "date": "2026-11-14",
+      "endDate": "2026-11-14",
+      "artists": [
+        "에릭"
+      ],
+      "title": "에릭 꽃보다 손영재",
+      "type": "其他",
+      "venue": "광운대학교 동해문화예술관 대극장",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/eric-2026-fanmeeting-seoul",
+      "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "event-jang-woo-young-2026-solo-concert-seoul",
+      "date": "2026-11-14",
+      "endDate": "2026-11-15",
+      "artists": [
+        "장우영"
+      ],
+      "title": "장우영 장우영 단독 콘서트 (공식 타이틀 미확인)",
+      "type": "演唱会",
+      "venue": "YES24 라이브홀",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/jang-woo-young-2026-solo-concert-seoul",
+      "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "kp-20261115-billlie",
+      "date": "2026-11-15",
+      "endDate": "2026-11-15",
+      "artists": [
+        "Billlie"
+      ],
+      "title": "5th Anniversary Fan Concert 〈The Heist Squad〉",
+      "type": "Fan Meeting",
+      "venue": "西江大学 Mary Hall",
+      "city": "首尔",
+      "participation": "需购票",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/calendar?m=2026-11",
+      "sourceName": "K-pop Today（附官方来源）"
+    },
+    {
+      "id": "event-billlie-2026-5th-anniversary-fan-concert-the-heist-squad",
+      "date": "2026-11-15",
+      "endDate": "2026-11-15",
+      "artists": [
+        "빌리"
+      ],
+      "title": "빌리 Billlie 5th Anniversary Fan Concert 〈The Heist Squad〉",
+      "type": "Fan Meeting",
+      "venue": "서강대학교 메리홀 대극장",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/billlie-2026-5th-anniversary-fan-concert-the-heist-squad",
+      "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "kp-20261120-cye",
+      "date": "2026-11-20",
+      "endDate": "2026-11-22",
+      "artists": [
+        "CLOSE YOUR EYES"
+      ],
+      "title": "모태 아이돌이지만 클로저와 연애는 하고 싶어",
+      "type": "Fan Meeting",
+      "venue": "COEX Artium Woori Bank Hall",
+      "city": "首尔",
+      "participation": "需购票",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/calendar?m=2026-11",
+      "sourceName": "K-pop Today（附官方来源）"
+    },
+    {
+      "id": "event-close-your-eyes-2026-fancon-seoul",
+      "date": "2026-11-20",
+      "endDate": "2026-11-22",
+      "artists": [
+        "클로즈 유어 아이즈"
+      ],
+      "title": "클로즈 유어 아이즈 모태 아이돌이지만 클로저와 연애는 하고 싶어",
+      "type": "其他",
+      "venue": "코엑스아티움 우리은행홀",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/close-your-eyes-2026-fancon-seoul",
+      "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "kp-20261127-nmixx",
+      "date": "2026-11-27",
+      "endDate": "2026-11-29",
+      "artists": [
+        "NMIXX"
+      ],
+      "title": "EPISODE 1: ZERO FRONTIER Encore",
+      "type": "演唱会",
+      "venue": "Inspire Arena",
+      "city": "仁川",
+      "participation": "需购票",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/calendar?m=2026-11",
+      "sourceName": "K-pop Today（附官方来源）"
+    },
+    {
+      "id": "event-nmixx-2026-world-tour-encore-incheon",
+      "date": "2026-11-27",
+      "endDate": "2026-11-29",
+      "artists": [
+        "엔믹스"
+      ],
+      "title": "엔믹스 EPISODE 1: ZERO FRONTIER 앙코르 콘서트",
+      "type": "演唱会",
+      "venue": "인스파이어 아레나",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/nmixx-2026-world-tour-encore-incheon",
+      "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "kp-20261128-aespa",
+      "date": "2026-11-28",
+      "endDate": "2026-11-29",
+      "artists": [
+        "aespa"
+      ],
+      "title": "2026 aespa FAN MEETING “MY 보고싶다 ae가”",
+      "type": "Fan Meeting",
+      "venue": "高丽大学化汀体育馆",
+      "city": "首尔",
+      "participation": "需购票",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/calendar?m=2026-11",
+      "sourceName": "K-pop Today（附官方来源）"
+    },
+    {
+      "id": "event-aespa-2026-fanmeeting-my-bogosipda-aega",
+      "date": "2026-11-28",
+      "endDate": "2026-11-29",
+      "artists": [
+        "에스파"
+      ],
+      "title": "에스파 2026 aespa FAN MEETING “MY 보고싶다 ae가”",
+      "type": "Fan Meeting",
+      "venue": "고려대학교 화정체육관",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/aespa-2026-fanmeeting-my-bogosipda-aega",
+      "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "event-and2ble-2026-fancon-winter-inside-seoul",
+      "date": "2026-12-04",
+      "endDate": "2026-12-06",
+      "artists": [
+        "앤더블"
+      ],
+      "title": "앤더블 2026 AND2BLE FAN-CON 〈W!nter inside〉 In Seoul",
+      "type": "其他",
+      "venue": "고려대학교 화정체육관",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/and2ble-2026-fancon-winter-inside-seoul",
+      "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "event-and2ble-2026-fancon-winter-inside",
+      "date": "2026-12-05",
+      "endDate": "2026-12-06",
+      "artists": [
+        "앤더블"
+      ],
+      "title": "앤더블 2026 AND2BLE FAN-CON <W!nter inside>",
+      "type": "其他",
+      "venue": "场地见原公告",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/and2ble-2026-fancon-winter-inside",
+      "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "event-fly-to-the-sky-2026-tour-ll",
+      "date": "2026-12-05",
+      "endDate": "2026-12-13",
+      "artists": [
+        "플라이 투 더 스카이"
+      ],
+      "title": "플라이 투 더 스카이 2026 FLY TO THE SKY TOUR : ll",
+      "type": "演唱会",
+      "venue": "경북대학교 대강당(대구), 고양아람누리 아람극장(고양)",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/fly-to-the-sky-2026-tour-ll",
+      "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "event-n-flying-2026-live-once-upon-a-snowball",
+      "date": "2026-12-24",
+      "endDate": "2026-12-26",
+      "artists": [
+        "엔플라잉"
+      ],
+      "title": "엔플라잉 2026 N.Flying LIVE ‘Once Upon a Snowball’",
+      "type": "演唱会",
+      "venue": "고려대학교 화정체육관",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/n-flying-2026-live-once-upon-a-snowball",
+      "sourceName": "K-pop Today 条目（含来源）"
+    }
+  ],
   "comebacks": [
-    {"id":"cb-20261006-yesung","date":"2026-10-06","artist":"艺声（YESUNG）","release":"Where We Are","type":"正规专辑","artistKind":"solo","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261006-kickflip","date":"2026-10-06","artist":"KickFlip","release":"KICK OFF THE WALL Pt. 1","type":"迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261007-kimjaehwan","date":"2026-10-07","artist":"金在奂（KIM JAEHWAN）","release":"Love, From Here","type":"单曲","artistKind":"solo","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261007-youngposse","date":"2026-10-07","artist":"YOUNG POSSE","release":"GO해 (GO AHEAD)","type":"数字单曲","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261008-nflying","date":"2026-10-08","artist":"N.Flying","release":"Still","type":"迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261008-yuqi","date":"2026-10-08","artist":"雨琦（YUQI）","release":"二十七 (27)","type":"Solo 迷你专辑","artistKind":"solo","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261012-nctwish","date":"2026-10-12","artist":"NCT WISH","release":"I SPY","type":"迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261012-meovv","date":"2026-10-12","artist":"MEOVV","release":"GO HARD","type":"单曲","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261012-sunghanbin","date":"2026-10-12","artist":"成韩彬（SUNG HANBIN）","release":"DEAD:ALIVE","type":"Solo 迷你专辑","artistKind":"solo","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261012-xdh","date":"2026-10-12","artist":"Xdinary Heroes","release":"IMPULSE","type":"迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261012-plave","date":"2026-10-12","artist":"PLAVE","release":"HYPERDRIVE","type":"迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261013-epikhigh-davichi","date":"2026-10-13","artist":"Epik High × Davichi","release":"미장센 (Mise-en-scène)","type":"数字单曲","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261019-nmixx","date":"2026-10-19","artist":"NMIXX","release":"Strange Muse","type":"迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261019-jxj","date":"2026-10-19","artist":"净汉 × Joshua","release":"DREAMSCAPE","type":"小分队迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261019-changmin","date":"2026-10-19","artist":"最强昌珉（MAX CHANGMIN）","release":"All Of My Life","type":"Solo 迷你专辑","artistKind":"solo","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261020-youngseo","date":"2026-10-20","artist":"YOUNGSEO","release":"DARKROOM","type":"OST","artistKind":"solo","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261023-babymonster","date":"2026-10-23","artist":"BABYMONSTER","release":"DESERVE","type":"数字单曲","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261026-riize","date":"2026-10-26","artist":"RIIZE","release":"Insomnia","type":"单曲","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261026-ive","date":"2026-10-26","artist":"IVE","release":"Looks Can Kill","type":"迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261026-illit","date":"2026-10-26","artist":"ILLIT","release":"BREAK EVEN","type":"迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261027-andouble","date":"2026-10-27","artist":"N.DOUBLE","release":"Sequence 02: Attraction","type":"迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261028-xlov","date":"2026-10-28","artist":"XLOV","release":"i=!","type":"迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/month/2026-10"},
-    {"id":"cb-20261102-xikers","date":"2026-11-02","artist":"xikers","release":"ROUTE ZERO : The CALLING","type":"迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/calendar?m=2026-11"},
-    {"id":"cb-20261102-tws","date":"2026-11-02","artist":"TWS","release":"TO US","type":"单曲","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/calendar?m=2026-11"},
-    {"id":"cb-20261102-treasure","date":"2026-11-02","artist":"TREASURE","release":"SHOCK","type":"数字单曲","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/calendar?m=2026-11"},
-    {"id":"cb-20261103-rescene","date":"2026-11-03","artist":"RESCENE","release":"PULSE","type":"迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/calendar?m=2026-11"},
-    {"id":"cb-20261104-yoonseobin","date":"2026-11-04","artist":"尹瑞彬（Yoon Seobin）","release":"Slow Motion","type":"Solo 数字单曲","artistKind":"solo","status":"confirmed","sourceUrl":"https://k-poptoday.com/calendar?m=2026-11"},
-    {"id":"cb-20261105-unchild","date":"2026-11-05","artist":"UNCHILD","release":"TiNG TiNG","type":"数字单曲","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/calendar?m=2026-11"},
-    {"id":"cb-20261105-how","date":"2026-11-05","artist":"Heart of Women","release":"ETERNAL FADE","type":"迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/calendar?m=2026-11"},
-    {"id":"cb-20261106-p1harmony","date":"2026-11-06","artist":"P1Harmony","release":"BLOW UP","type":"迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/calendar?m=2026-11"},
-    {"id":"cb-20261109-nctdream","date":"2026-11-09","artist":"NCT DREAM","release":"DREAM AFTER DREAM","type":"正规专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/calendar?m=2026-11"},
-    {"id":"cb-20261109-chaeryeong","date":"2026-11-09","artist":"彩领（CHAERYEONG · ITZY）","release":"Lovesick","type":"Solo 迷你专辑","artistKind":"solo","status":"confirmed","sourceUrl":"https://k-poptoday.com/calendar?m=2026-11"},
-    {"id":"cb-20261110-lngshot","date":"2026-11-10","artist":"LNGSHOT","release":"S.W.I.S.H.","type":"迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/calendar?m=2026-11"},
-    {"id":"cb-20261111-kyuhyun","date":"2026-11-11","artist":"圭贤（KYUHYUN）","release":"CONTINUE","type":"Solo 迷你专辑","artistKind":"solo","status":"confirmed","sourceUrl":"https://k-poptoday.com/calendar?m=2026-11"},
-    {"id":"cb-20261113-ateez","date":"2026-11-13","artist":"ATEEZ","release":"GOLDEN HOUR : Part.6","type":"迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/calendar?m=2026-11"},
-    {"id":"cb-20261116-txt","date":"2026-11-16","artist":"TXT","release":"PERFECT STORM","type":"迷你专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/calendar?m=2026-11"},
-    {"id":"cb-20261120-enhypen","date":"2026-11-20","artist":"ENHYPEN","release":"THE SIN : PARALLEL WORLD","type":"单曲","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/calendar?m=2026-11"},
-    {"id":"cb-20261209-nmixx","date":"2026-12-09","artist":"NMIXX","release":"N=MIXX","type":"日本正规专辑","artistKind":"group","status":"confirmed","sourceUrl":"https://k-poptoday.com/agency/jyp-entertainment"}
+    {
+      "id": "release-idntt-yesweare",
+      "date": "2026-01-05",
+      "artist": "아이덴티티",
+      "release": "yesweare",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/idntt-yesweare"
+    },
+    {
+      "id": "release-apink-re-love",
+      "date": "2026-01-05",
+      "artist": "에이핑크",
+      "release": "RE : LOVE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/apink-re-love"
+    },
+    {
+      "id": "release-joohoney-insanity",
+      "date": "2026-01-05",
+      "artist": "주헌",
+      "release": "光 (INSANITY)",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/joohoney-insanity"
+    },
+    {
+      "id": "release-ha-sung-woon-tell-the-world",
+      "date": "2026-01-05",
+      "artist": "하성운",
+      "release": "Tell The World",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/ha-sung-woon-tell-the-world"
+    },
+    {
+      "id": "release-cnblue-3logy",
+      "date": "2026-01-07",
+      "artist": "씨엔블루",
+      "release": "3LOGY",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/cnblue-3logy"
+    },
+    {
+      "id": "release-chuu-xo-my-cyberlove",
+      "date": "2026-01-07",
+      "artist": "츄",
+      "release": "XO, My Cyberlove",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/chuu-xo-my-cyberlove"
+    },
+    {
+      "id": "release-dk-seungkwan-serenade",
+      "date": "2026-01-12",
+      "artist": "도겸X승관",
+      "release": "소야곡",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/dk-seungkwan-serenade"
+    },
+    {
+      "id": "release-alpha-drive-one-euphoria",
+      "date": "2026-01-12",
+      "artist": "알파드라이브원",
+      "release": "EUPHORIA",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/alpha-drive-one-euphoria"
+    },
+    {
+      "id": "release-lngshot-shot-callers",
+      "date": "2026-01-13",
+      "artist": "롱샷",
+      "release": "SHOT CALLERS",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/lngshot-shot-callers"
+    },
+    {
+      "id": "release-enhypen-the-sin-vanish",
+      "date": "2026-01-16",
+      "artist": "엔하이픈",
+      "release": "THE SIN : VANISH",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/enhypen-the-sin-vanish"
+    },
+    {
+      "id": "release-exo-reverxe",
+      "date": "2026-01-19",
+      "artist": "엑소",
+      "release": "REVERXE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/exo-reverxe"
+    },
+    {
+      "id": "release-oneus-2026-01",
+      "date": "2026-01-20",
+      "artist": "원어스",
+      "release": "原",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/oneus-2026-01"
+    },
+    {
+      "id": "release-kiiikiii-delulu-pack",
+      "date": "2026-01-26",
+      "artist": "키키",
+      "release": "Delulu Pack",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/kiiikiii-delulu-pack"
+    },
+    {
+      "id": "release-gidle-mono",
+      "date": "2026-01-27",
+      "artist": "아이들",
+      "release": "Mono (Feat. skaiwater)",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/gidle-mono"
+    },
+    {
+      "id": "release-zerobaseone-re-flow",
+      "date": "2026-02-02",
+      "artist": "제로베이스원",
+      "release": "RE-FLOW",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/zerobaseone-re-flow"
+    },
+    {
+      "id": "release-monsta-x-growing-pains",
+      "date": "2026-02-06",
+      "artist": "몬스타엑스",
+      "release": "growing pains",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/monsta-x-growing-pains"
+    },
+    {
+      "id": "release-ateez-golden-hour-part-4",
+      "date": "2026-02-06",
+      "artist": "에이티즈",
+      "release": "GOLDEN HOUR : Part.4",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/ateez-golden-hour-part-4"
+    },
+    {
+      "id": "release-yang-yoseop-unloved-echo",
+      "date": "2026-02-09",
+      "artist": "양요섭",
+      "release": "Unloved Echo",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/yang-yoseop-unloved-echo"
+    },
+    {
+      "id": "release-tws-2026-02",
+      "date": "2026-02-09",
+      "artist": "투어스",
+      "release": "다시 만난 오늘",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/tws-2026-02"
+    },
+    {
+      "id": "release-hearts2hearts-rude",
+      "date": "2026-02-20",
+      "artist": "하츠투하츠",
+      "release": "RUDE!",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/hearts2hearts-rude"
+    },
+    {
+      "id": "release-nct-jnjm-both-sides",
+      "date": "2026-02-23",
+      "artist": "NCT JNJM",
+      "release": "BOTH SIDES",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/nct-jnjm-both-sides"
+    },
+    {
+      "id": "release-ive-revive-plus",
+      "date": "2026-02-23",
+      "artist": "아이브",
+      "release": "REVIVE+",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/ive-revive-plus"
+    },
+    {
+      "id": "release-blackpink-deadline",
+      "date": "2026-02-27",
+      "artist": "블랙핑크",
+      "release": "DEADLINE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/blackpink-deadline"
+    },
+    {
+      "id": "release-kim-sung-kyu-off-the-map",
+      "date": "2026-03-02",
+      "artist": "김성규",
+      "release": "OFF THE MAP",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/kim-sung-kyu-off-the-map"
+    },
+    {
+      "id": "release-everglow-code",
+      "date": "2026-03-03",
+      "artist": "에버글로우",
+      "release": "CODE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/everglow-code"
+    },
+    {
+      "id": "release-woodz-archive-1",
+      "date": "2026-03-04",
+      "artist": "우즈",
+      "release": "Archive. 1",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/woodz-archive-1"
+    },
+    {
+      "id": "release-nouera-pop-it-like",
+      "date": "2026-03-09",
+      "artist": "누에라",
+      "release": "POP IT LIKE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/nouera-pop-it-like"
+    },
+    {
+      "id": "release-onew-tough-love",
+      "date": "2026-03-09",
+      "artist": "온유",
+      "release": "TOUGH LOVE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/onew-tough-love"
+    },
+    {
+      "id": "release-yena-love-catcher",
+      "date": "2026-03-11",
+      "artist": "최예나",
+      "release": "LOVE CATCHER",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/yena-love-catcher"
+    },
+    {
+      "id": "release-p1harmony-unique",
+      "date": "2026-03-12",
+      "artist": "피원하모니",
+      "release": "UNIQUE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/p1harmony-unique"
+    },
+    {
+      "id": "release-ab6ix-seven-crimson-horizon",
+      "date": "2026-03-16",
+      "artist": "에이비식스",
+      "release": "SEVEN : CRIMSON HORIZON",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/ab6ix-seven-crimson-horizon"
+    },
+    {
+      "id": "release-bts-arirang",
+      "date": "2026-03-20",
+      "artist": "방탄소년단",
+      "release": "ARIRANG",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/bts-arirang"
+    },
+    {
+      "id": "release-yuna-ice-cream",
+      "date": "2026-03-23",
+      "artist": "유나",
+      "release": "Ice Cream",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/yuna-ice-cream"
+    },
+    {
+      "id": "release-baby-dont-cry-after-cry",
+      "date": "2026-03-24",
+      "artist": "베이비돈크라이",
+      "release": "AFTER CRY",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/baby-dont-cry-after-cry"
+    },
+    {
+      "id": "release-moonbyul-rev",
+      "date": "2026-03-25",
+      "artist": "문별",
+      "release": "REV",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/moonbyul-rev"
+    },
+    {
+      "id": "release-irene-biggest-fan",
+      "date": "2026-03-30",
+      "artist": "아이린",
+      "release": "Biggest Fan",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/irene-biggest-fan"
+    },
+    {
+      "id": "release-wonpil-unpiltered",
+      "date": "2026-03-30",
+      "artist": "원필",
+      "release": "Unpiltered",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/wonpil-unpiltered"
+    },
+    {
+      "id": "release-top-another-dimension",
+      "date": "2026-04-03",
+      "artist": "탑",
+      "release": "ANOTHER DIMENSION",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/top-another-dimension"
+    },
+    {
+      "id": "release-kiss-of-life-who-is-she",
+      "date": "2026-04-06",
+      "artist": "키스오브라이프",
+      "release": "Who is she",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/kiss-of-life-who-is-she"
+    },
+    {
+      "id": "release-kickflip-my-first-kick",
+      "date": "2026-04-06",
+      "artist": "킥플립",
+      "release": "My First Kick",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/kickflip-my-first-kick"
+    },
+    {
+      "id": "release-ha-hyunsang-new-boat",
+      "date": "2026-04-06",
+      "artist": "하현상",
+      "release": "New Boat",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/ha-hyunsang-new-boat"
+    },
+    {
+      "id": "release-txt-7th-year",
+      "date": "2026-04-13",
+      "artist": "투모로우바이투게더",
+      "release": "7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/txt-7th-year"
+    },
+    {
+      "id": "release-plave-caligo-pt-2",
+      "date": "2026-04-13",
+      "artist": "플레이브",
+      "release": "Caligo Pt.2",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/plave-caligo-pt-2"
+    },
+    {
+      "id": "release-xdinary-heroes-dead-and",
+      "date": "2026-04-17",
+      "artist": "엑스디너리 히어로즈",
+      "release": "DEAD AND",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/xdinary-heroes-dead-and"
+    },
+    {
+      "id": "release-taeyong-rock-solid",
+      "date": "2026-04-17",
+      "artist": "태용",
+      "release": "Rock Solid (Feat. Anderson .Paak)",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/taeyong-rock-solid"
+    },
+    {
+      "id": "release-nct-wish-ode-to-love",
+      "date": "2026-04-20",
+      "artist": "NCT WISH",
+      "release": "Ode to Love",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/nct-wish-ode-to-love"
+    },
+    {
+      "id": "release-cortis-redred",
+      "date": "2026-04-20",
+      "artist": "코르티스",
+      "release": "REDRED",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/cortis-redred"
+    },
+    {
+      "id": "release-le-sserafim-celebration",
+      "date": "2026-04-24",
+      "artist": "르세라핌",
+      "release": "CELEBRATION",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/le-sserafim-celebration"
+    },
+    {
+      "id": "release-qwer-ceremony",
+      "date": "2026-04-27",
+      "artist": "QWER",
+      "release": "CEREMONY",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/qwer-ceremony"
+    },
+    {
+      "id": "release-tws-no-tragedy",
+      "date": "2026-04-27",
+      "artist": "투어스",
+      "release": "NO TRAGEDY",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/tws-no-tragedy"
+    },
+    {
+      "id": "release-illit-mamihlapinatapai",
+      "date": "2026-04-30",
+      "artist": "아일릿",
+      "release": "MAMIHLAPINATAPAI",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/illit-mamihlapinatapai"
+    },
+    {
+      "id": "release-babymonster-choom",
+      "date": "2026-05-04",
+      "artist": "베이비몬스터",
+      "release": "CHOOM",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/babymonster-choom"
+    },
+    {
+      "id": "release-cortis-greengreen",
+      "date": "2026-05-04",
+      "artist": "코르티스",
+      "release": "GREENGREEN",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/cortis-greengreen"
+    },
+    {
+      "id": "release-billlie-the-collective-soul-and-unconscious-chapter-two",
+      "date": "2026-05-06",
+      "artist": "빌리",
+      "release": "the collective soul and unconscious: chapter two",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/billlie-the-collective-soul-and-unconscious-chapter-two"
+    },
+    {
+      "id": "release-nmixx-heavy-serenade",
+      "date": "2026-05-11",
+      "artist": "엔믹스",
+      "release": "Heavy Serenade",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/nmixx-heavy-serenade"
+    },
+    {
+      "id": "release-itzy-motto",
+      "date": "2026-05-18",
+      "artist": "있지",
+      "release": "Motto",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/itzy-motto"
+    },
+    {
+      "id": "release-zerobaseone-ascend",
+      "date": "2026-05-18",
+      "artist": "제로베이스원",
+      "release": "Ascend-",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/zerobaseone-ascend"
+    },
+    {
+      "id": "release-taeyang-quintessence",
+      "date": "2026-05-18",
+      "artist": "태양",
+      "release": "QUINTESSENCE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/taeyang-quintessence"
+    },
+    {
+      "id": "release-taeyong-wyld",
+      "date": "2026-05-18",
+      "artist": "태용",
+      "release": "WYLD",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/taeyong-wyld"
+    },
+    {
+      "id": "release-xikers-route-zero-the-ora",
+      "date": "2026-05-19",
+      "artist": "싸이커스",
+      "release": "ROUTE ZERO : The ORA",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/xikers-route-zero-the-ora"
+    },
+    {
+      "id": "release-ioi-loop",
+      "date": "2026-05-19",
+      "artist": "아이오아이",
+      "release": "I.O.I : LOOP",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/ioi-loop"
+    },
+    {
+      "id": "release-yoon-san-ha-no-reason",
+      "date": "2026-05-20",
+      "artist": "윤산하",
+      "release": "NO REASON",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/yoon-san-ha-no-reason"
+    },
+    {
+      "id": "release-shownu-x-hyungwon-love-me",
+      "date": "2026-05-21",
+      "artist": "셔누X형원",
+      "release": "LOVE ME",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/shownu-x-hyungwon-love-me"
+    },
+    {
+      "id": "release-le-sserafim-pureflow-pt1",
+      "date": "2026-05-22",
+      "artist": "르세라핌",
+      "release": "'PUREFLOW' pt.1",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/le-sserafim-pureflow-pt1"
+    },
+    {
+      "id": "release-alpha-drive-one-no-school-tomorrow",
+      "date": "2026-05-26",
+      "artist": "알파드라이브원",
+      "release": "No School Tomorrow",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/alpha-drive-one-no-school-tomorrow"
+    },
+    {
+      "id": "release-idid-fly",
+      "date": "2026-05-27",
+      "artist": "아이딧",
+      "release": "FLY!",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/idid-fly"
+    },
+    {
+      "id": "release-xlov-i-god",
+      "date": "2026-05-27",
+      "artist": "엑스러브",
+      "release": "I,God",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/xlov-i-god"
+    },
+    {
+      "id": "release-aespa-lemonade",
+      "date": "2026-05-29",
+      "artist": "에스파",
+      "release": "LEMONADE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/aespa-lemonade"
+    },
+    {
+      "id": "release-meovv-bite-now",
+      "date": "2026-06-01",
+      "artist": "미야오",
+      "release": "BITE NOW",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/meovv-bite-now"
+    },
+    {
+      "id": "release-shinee-atmos",
+      "date": "2026-06-01",
+      "artist": "샤이니",
+      "release": "Atmos",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/shinee-atmos"
+    },
+    {
+      "id": "release-treasure-new-wav",
+      "date": "2026-06-01",
+      "artist": "트레저",
+      "release": "NEW WAV",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/treasure-new-wav"
+    },
+    {
+      "id": "release-triples-assemble26-love-pop-pt1",
+      "date": "2026-06-01",
+      "artist": "트리플에스",
+      "release": "ASSEMBLE26 LOVE & POP pt.1 'LOVE'",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/triples-assemble26-love-pop-pt1"
+    },
+    {
+      "id": "release-fifty-fifty-imperfect-imperfect",
+      "date": "2026-06-01",
+      "artist": "피프티피프티",
+      "release": "Imperfect-I'mperfect",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/fifty-fifty-imperfect-imperfect"
+    },
+    {
+      "id": "release-n-flying-in-between-seasons",
+      "date": "2026-06-02",
+      "artist": "엔플라잉",
+      "release": "In Between Seasons",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/n-flying-in-between-seasons"
+    },
+    {
+      "id": "release-mamamoo-4ward",
+      "date": "2026-06-04",
+      "artist": "마마무",
+      "release": "4WARD",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/mamamoo-4ward"
+    },
+    {
+      "id": "release-babymonster-sugar-honey-ice-tea",
+      "date": "2026-06-08",
+      "artist": "베이비몬스터",
+      "release": "SUGAR HONEY ICE TEA",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/babymonster-sugar-honey-ice-tea"
+    },
+    {
+      "id": "release-boynextdoor-home",
+      "date": "2026-06-08",
+      "artist": "보이넥스트도어",
+      "release": "HOME",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/boynextdoor-home"
+    },
+    {
+      "id": "release-izna-set-the-tempo",
+      "date": "2026-06-08",
+      "artist": "이즈나",
+      "release": "SET THE TEMPO",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/izna-set-the-tempo"
+    },
+    {
+      "id": "release-yerin-reach-you",
+      "date": "2026-06-09",
+      "artist": "예린",
+      "release": "REACH YOU",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/yerin-reach-you"
+    },
+    {
+      "id": "release-epex-youth-epilogue",
+      "date": "2026-06-09",
+      "artist": "이펙스",
+      "release": "Youth : Epilogue",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/epex-youth-epilogue"
+    },
+    {
+      "id": "release-jay-b-tr-ee",
+      "date": "2026-06-10",
+      "artist": "제이비",
+      "release": "TR.EE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/jay-b-tr-ee"
+    },
+    {
+      "id": "release-han-back-to-life",
+      "date": "2026-06-11",
+      "artist": "한",
+      "release": "back to life",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/han-back-to-life"
+    },
+    {
+      "id": "release-le-sserafim-illit-katseye-iconic-by-mistake",
+      "date": "2026-06-12",
+      "artist": "르세라핌X아일릿X캣츠아이",
+      "release": "ICONIC BY MISTAKE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/le-sserafim-illit-katseye-iconic-by-mistake"
+    },
+    {
+      "id": "release-riize-ii",
+      "date": "2026-06-15",
+      "artist": "라이즈",
+      "release": "II",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/riize-ii"
+    },
+    {
+      "id": "release-gidle-crow",
+      "date": "2026-06-15",
+      "artist": "아이들",
+      "release": "Crow",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/gidle-crow"
+    },
+    {
+      "id": "release-stayc-2-love",
+      "date": "2026-06-16",
+      "artist": "스테이씨",
+      "release": "2:LOVE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/stayc-2-love"
+    },
+    {
+      "id": "release-onf-onf-my-self-part-2",
+      "date": "2026-06-17",
+      "artist": "온앤오프",
+      "release": "ONF:MY SELF Part 2",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/onf-onf-my-self-part-2"
+    },
+    {
+      "id": "release-hearts2hearts-lemon-tang",
+      "date": "2026-06-22",
+      "artist": "하츠투하츠",
+      "release": "Lemon Tang",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/hearts2hearts-lemon-tang"
+    },
+    {
+      "id": "release-ateez-golden-hour-part-5",
+      "date": "2026-06-26",
+      "artist": "에이티즈",
+      "release": "GOLDEN HOUR : Part.5",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/ateez-golden-hour-part-5"
+    },
+    {
+      "id": "release-v8-v8",
+      "date": "2026-06-29",
+      "artist": "V8(세븐틴)",
+      "release": "V8",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/v8-v8"
+    },
+    {
+      "id": "release-gidle-we-made",
+      "date": "2026-07-06",
+      "artist": "아이들",
+      "release": "We made",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/gidle-we-made"
+    },
+    {
+      "id": "release-kihyun-borderline",
+      "date": "2026-07-07",
+      "artist": "기현",
+      "release": "BORDERLINE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/kihyun-borderline"
+    },
+    {
+      "id": "release-ahof-run-to-you",
+      "date": "2026-07-08",
+      "artist": "아홉",
+      "release": "RUN TO YOU",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/ahof-run-to-you"
+    },
+    {
+      "id": "release-yeonjun-no-labels-part-02",
+      "date": "2026-07-10",
+      "artist": "연준",
+      "release": "NO LABELS: PART 02",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/yeonjun-no-labels-part-02"
+    },
+    {
+      "id": "release-jaehyun-99-degrees",
+      "date": "2026-07-10",
+      "artist": "재현",
+      "release": "99 Degrees",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/jaehyun-99-degrees"
+    },
+    {
+      "id": "release-super-junior-83z-promise",
+      "date": "2026-07-13",
+      "artist": "슈퍼주니어-83z",
+      "release": "Promise",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/super-junior-83z-promise"
+    },
+    {
+      "id": "release-sunmi-forever-july",
+      "date": "2026-07-15",
+      "artist": "선미",
+      "release": "Forever July",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/sunmi-forever-july"
+    },
+    {
+      "id": "release-fromis-9-glow-me",
+      "date": "2026-07-21",
+      "artist": "프로미스나인",
+      "release": "Glow ME",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/fromis-9-glow-me"
+    },
+    {
+      "id": "release-lun8-off-the-grid",
+      "date": "2026-07-22",
+      "artist": "루네이트",
+      "release": "Off the Grid",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/lun8-off-the-grid"
+    },
+    {
+      "id": "release-hyolyn-originalyn",
+      "date": "2026-07-22",
+      "artist": "효린",
+      "release": "OriginaLyn",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/hyolyn-originalyn"
+    },
+    {
+      "id": "release-jennie-less-than-a-lover",
+      "date": "2026-07-24",
+      "artist": "제니",
+      "release": "Less than a Lover",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/jennie-less-than-a-lover"
+    },
+    {
+      "id": "release-nouera-exe",
+      "date": "2026-07-27",
+      "artist": "누에라",
+      "release": ".exe",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/nouera-exe"
+    },
+    {
+      "id": "release-kard-where-to-now-part-2-nowhere",
+      "date": "2026-07-28",
+      "artist": "카드",
+      "release": "Where To Now? (Part.2) : NOWHERE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/kard-where-to-now-part-2-nowhere"
+    },
+    {
+      "id": "release-red-velvet-velvet-summer",
+      "date": "2026-08-03",
+      "artist": "레드벨벳",
+      "release": "Velvet Summer",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/red-velvet-velvet-summer"
+    },
+    {
+      "id": "release-kiss-of-life-sweat",
+      "date": "2026-08-04",
+      "artist": "키스오브라이프",
+      "release": "SWEAT",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/kiss-of-life-sweat"
+    },
+    {
+      "id": "release-aen-a-new-era-of-now",
+      "date": "2026-08-05",
+      "artist": "AEN",
+      "release": "A NEW ERA OF NOW",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/aen-a-new-era-of-now"
+    },
+    {
+      "id": "release-stray-kids-this-and-that",
+      "date": "2026-08-07",
+      "artist": "스트레이 키즈",
+      "release": "THIS & THAT",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/stray-kids-this-and-that"
+    },
+    {
+      "id": "release-artms-hyper-ego",
+      "date": "2026-08-07",
+      "artist": "아르테미스",
+      "release": "Hyper-Ego",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/artms-hyper-ego"
+    },
+    {
+      "id": "release-wayv-vision-wings",
+      "date": "2026-08-10",
+      "artist": "웨이션브이",
+      "release": "Vision Wings",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/wayv-vision-wings"
+    },
+    {
+      "id": "release-kiiikiii-whykiiikiii",
+      "date": "2026-08-10",
+      "artist": "키키",
+      "release": "WhyKiiiKiii",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/kiiikiii-whykiiikiii"
+    },
+    {
+      "id": "release-jeong-eunji-summer-i",
+      "date": "2026-08-11",
+      "artist": "정은지",
+      "release": "Summer, I",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/jeong-eunji-summer-i"
+    },
+    {
+      "id": "release-katseye-wild",
+      "date": "2026-08-14",
+      "artist": "캣츠아이",
+      "release": "WILD",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/katseye-wild"
+    },
+    {
+      "id": "release-enhypen-the-sin-bliss",
+      "date": "2026-08-21",
+      "artist": "엔하이픈",
+      "release": "THE SIN : BLISS",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/enhypen-the-sin-bliss"
+    },
+    {
+      "id": "release-nct-127-blingy",
+      "date": "2026-08-24",
+      "artist": "NCT 127",
+      "release": "BLINGY",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/nct-127-blingy"
+    },
+    {
+      "id": "release-cortis-greengreen-playextended",
+      "date": "2026-08-24",
+      "artist": "코르티스",
+      "release": "GREENGREEN_playextended",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/cortis-greengreen-playextended"
+    },
+    {
+      "id": "release-jennie-fallen-angel",
+      "date": "2026-08-28",
+      "artist": "제니",
+      "release": "Fallen Angel",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/jennie-fallen-angel"
+    },
+    {
+      "id": "release-taemin-phase-1-soft-violence",
+      "date": "2026-08-31",
+      "artist": "태민",
+      "release": "PHASE 1 : Soft Violence",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/taemin-phase-1-soft-violence"
+    },
+    {
+      "id": "release-82major-heat",
+      "date": "2026-09-01",
+      "artist": "82메이저",
+      "release": "HEAT",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/82major-heat"
+    },
+    {
+      "id": "release-chungha-mexico",
+      "date": "2026-09-01",
+      "artist": "청하",
+      "release": "México",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/chungha-mexico"
+    },
+    {
+      "id": "release-tunexx-blue-mode",
+      "date": "2026-09-02",
+      "artist": "튜넥스",
+      "release": "BLUE MODE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/tunexx-blue-mode"
+    },
+    {
+      "id": "release-kwon-eunbi-dejavu",
+      "date": "2026-09-03",
+      "artist": "권은비",
+      "release": "DEJAVU",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/kwon-eunbi-dejavu"
+    },
+    {
+      "id": "release-lisa-sawadika",
+      "date": "2026-09-04",
+      "artist": "리사",
+      "release": "SaWaDiKa",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/lisa-sawadika"
+    },
+    {
+      "id": "release-monsta-x-the-phase",
+      "date": "2026-09-04",
+      "artist": "몬스타엑스",
+      "release": "The Phase",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/monsta-x-the-phase"
+    },
+    {
+      "id": "release-jisoo-click",
+      "date": "2026-09-04",
+      "artist": "지수",
+      "release": "CLICK",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/jisoo-click"
+    },
+    {
+      "id": "release-minho-make-it-hot",
+      "date": "2026-09-07",
+      "artist": "민호",
+      "release": "Make it hot",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/minho-make-it-hot"
+    },
+    {
+      "id": "release-verivery-confetti",
+      "date": "2026-09-07",
+      "artist": "베리베리",
+      "release": "CONFETTI",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/verivery-confetti"
+    },
+    {
+      "id": "release-soyeon-what-a-wonderful-life",
+      "date": "2026-09-07",
+      "artist": "소연",
+      "release": "끝내주는 인생 (What a Wonderful Life)",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/soyeon-what-a-wonderful-life"
+    },
+    {
+      "id": "release-do-dopamine",
+      "date": "2026-09-08",
+      "artist": "도경수",
+      "release": "DOPAMINE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/do-dopamine"
+    },
+    {
+      "id": "release-andteam-mark-on-me",
+      "date": "2026-09-08",
+      "artist": "앤팀",
+      "release": "Mark on Me",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/andteam-mark-on-me"
+    },
+    {
+      "id": "release-iu-2026-09",
+      "date": "2026-09-10",
+      "artist": "아이유",
+      "release": "이 별로부터",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/iu-2026-09"
+    },
+    {
+      "id": "release-allhours-unbound",
+      "date": "2026-09-10",
+      "artist": "올아워즈",
+      "release": "UNBOUND",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/allhours-unbound"
+    },
+    {
+      "id": "release-le-sserafim-made-my-night",
+      "date": "2026-09-11",
+      "artist": "르세라핌",
+      "release": "Made My Night",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/le-sserafim-made-my-night"
+    },
+    {
+      "id": "release-rose-new-trick",
+      "date": "2026-09-18",
+      "artist": "로제",
+      "release": "new trick",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/rose-new-trick"
+    },
+    {
+      "id": "release-boynextdoor-home-deluxe",
+      "date": "2026-09-28",
+      "artist": "보이넥스트도어",
+      "release": "HOME: DELUXE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/boynextdoor-home-deluxe"
+    },
+    {
+      "id": "release-allday-project-crash",
+      "date": "2026-09-28",
+      "artist": "올데이 프로젝트",
+      "release": "CRASH",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/allday-project-crash"
+    },
+    {
+      "id": "release-close-your-eyes-256th-note",
+      "date": "2026-09-30",
+      "artist": "클로즈 유어 아이즈",
+      "release": "256th Note",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/close-your-eyes-256th-note"
+    },
+    {
+      "id": "release-yesung-where-we-are",
+      "date": "2026-10-06",
+      "artist": "예성",
+      "release": "Where We Are",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/yesung-where-we-are"
+    },
+    {
+      "id": "release-kickflip-kick-off-the-wall-pt-1",
+      "date": "2026-10-06",
+      "artist": "킥플립",
+      "release": "KICK OFF THE WALL Pt. 1",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/kickflip-kick-off-the-wall-pt-1"
+    },
+    {
+      "id": "release-kim-jae-hwan-love-from-here",
+      "date": "2026-10-07",
+      "artist": "김재환",
+      "release": "Love, From Here",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/kim-jae-hwan-love-from-here"
+    },
+    {
+      "id": "release-young-posse-go-ahead",
+      "date": "2026-10-07",
+      "artist": "영파씨",
+      "release": "GO해 (GO AHEAD)",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/young-posse-go-ahead"
+    },
+    {
+      "id": "release-n-flying-still",
+      "date": "2026-10-08",
+      "artist": "엔플라잉",
+      "release": "Still",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/n-flying-still"
+    },
+    {
+      "id": "release-yuqi-27",
+      "date": "2026-10-08",
+      "artist": "우기",
+      "release": "二十七 (27)",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/yuqi-27"
+    },
+    {
+      "id": "release-nct-wish-i-spy",
+      "date": "2026-10-12",
+      "artist": "NCT WISH",
+      "release": "I SPY",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/nct-wish-i-spy"
+    },
+    {
+      "id": "release-meovv-go-hard",
+      "date": "2026-10-12",
+      "artist": "미야오",
+      "release": "GO HARD",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/meovv-go-hard"
+    },
+    {
+      "id": "release-sung-hanbin-dead-alive",
+      "date": "2026-10-12",
+      "artist": "성한빈",
+      "release": "DEAD:ALIVE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/sung-hanbin-dead-alive"
+    },
+    {
+      "id": "release-xdinary-heroes-impulse",
+      "date": "2026-10-12",
+      "artist": "엑스디너리 히어로즈",
+      "release": "IMPULSE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/xdinary-heroes-impulse"
+    },
+    {
+      "id": "release-plave-hyperdrive",
+      "date": "2026-10-12",
+      "artist": "플레이브",
+      "release": "HYPERDRIVE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/plave-hyperdrive"
+    },
+    {
+      "id": "release-epik-high-davichi-mise-en-scene",
+      "date": "2026-10-13",
+      "artist": "에픽하이 X 다비치",
+      "release": "미장센 (Mise-en-scène)",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/epik-high-davichi-mise-en-scene"
+    },
+    {
+      "id": "release-nmixx-strange-muse",
+      "date": "2026-10-19",
+      "artist": "엔믹스",
+      "release": "Strange Muse",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/nmixx-strange-muse"
+    },
+    {
+      "id": "release-jeonghan-joshua-dreamscape",
+      "date": "2026-10-19",
+      "artist": "정한X조슈아",
+      "release": "DREAMSCAPE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/jeonghan-joshua-dreamscape"
+    },
+    {
+      "id": "release-max-changmin-all-of-my-life",
+      "date": "2026-10-19",
+      "artist": "최강창민",
+      "release": "All Of My Life",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/max-changmin-all-of-my-life"
+    },
+    {
+      "id": "release-youngseo-2026-my-guilty-human-ost",
+      "date": "2026-10-20",
+      "artist": "영서",
+      "release": "DARKROOM (나의 유죄인간 OST Part.1)",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/youngseo-2026-my-guilty-human-ost"
+    },
+    {
+      "id": "release-babymonster-deserve",
+      "date": "2026-10-23",
+      "artist": "베이비몬스터",
+      "release": "DESERVE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/babymonster-deserve"
+    },
+    {
+      "id": "release-riize-insomnia",
+      "date": "2026-10-26",
+      "artist": "라이즈",
+      "release": "Insomnia",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/riize-insomnia"
+    },
+    {
+      "id": "release-ive-looks-can-kill",
+      "date": "2026-10-26",
+      "artist": "아이브",
+      "release": "Looks Can Kill",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/ive-looks-can-kill"
+    },
+    {
+      "id": "release-illit-break-even",
+      "date": "2026-10-26",
+      "artist": "아일릿",
+      "release": "BREAK EVEN",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/illit-break-even"
+    },
+    {
+      "id": "release-and2ble-sequence-02-attraction",
+      "date": "2026-10-27",
+      "artist": "앤더블",
+      "release": "Sequence 02: Attraction",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/and2ble-sequence-02-attraction"
+    },
+    {
+      "id": "release-xlov-i-equals-i",
+      "date": "2026-10-28",
+      "artist": "엑스러브",
+      "release": "i=!",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/xlov-i-equals-i"
+    },
+    {
+      "id": "release-xikers-route-zero-the-calling",
+      "date": "2026-11-02",
+      "artist": "싸이커스",
+      "release": "ROUTE ZERO : The CALLING",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/xikers-route-zero-the-calling"
+    },
+    {
+      "id": "release-tws-to-us",
+      "date": "2026-11-02",
+      "artist": "투어스",
+      "release": "TO US",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/tws-to-us"
+    },
+    {
+      "id": "release-treasure-shock",
+      "date": "2026-11-02",
+      "artist": "트레저",
+      "release": "SHOCK",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/treasure-shock"
+    },
+    {
+      "id": "release-rescene-pulse",
+      "date": "2026-11-03",
+      "artist": "리센느",
+      "release": "PULSE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/rescene-pulse"
+    },
+    {
+      "id": "release-yoon-seobin-slow-motion",
+      "date": "2026-11-04",
+      "artist": "윤서빈",
+      "release": "Slow Motion",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/yoon-seobin-slow-motion"
+    },
+    {
+      "id": "release-unchild-ting-ting",
+      "date": "2026-11-05",
+      "artist": "언차일드",
+      "release": "TiNG TiNG",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/unchild-ting-ting"
+    },
+    {
+      "id": "release-heart-of-woman-eternal-fade",
+      "date": "2026-11-05",
+      "artist": "하트오브우먼",
+      "release": "ETERNAL FADE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/heart-of-woman-eternal-fade"
+    },
+    {
+      "id": "release-p1harmony-blow-up",
+      "date": "2026-11-06",
+      "artist": "피원하모니",
+      "release": "BLOW UP",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/p1harmony-blow-up"
+    },
+    {
+      "id": "release-nct-dream-dream-after-dream",
+      "date": "2026-11-09",
+      "artist": "엔시티 드림",
+      "release": "DREAM AFTER DREAM",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/nct-dream-dream-after-dream"
+    },
+    {
+      "id": "release-chaeryeong-lovesick",
+      "date": "2026-11-09",
+      "artist": "채령",
+      "release": "Lovesick",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/chaeryeong-lovesick"
+    },
+    {
+      "id": "release-lngshot-swish",
+      "date": "2026-11-10",
+      "artist": "롱샷",
+      "release": "S.W.I.S.H.",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/lngshot-swish"
+    },
+    {
+      "id": "release-kyuhyun-continue",
+      "date": "2026-11-11",
+      "artist": "규현",
+      "release": "CONTINUE",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/kyuhyun-continue"
+    },
+    {
+      "id": "release-ateez-golden-hour-part-6",
+      "date": "2026-11-13",
+      "artist": "에이티즈",
+      "release": "GOLDEN HOUR : Part.6",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/ateez-golden-hour-part-6"
+    },
+    {
+      "id": "release-txt-perfect-storm",
+      "date": "2026-11-16",
+      "artist": "투모로우바이투게더",
+      "release": "PERFECT STORM",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/txt-perfect-storm"
+    },
+    {
+      "id": "release-enhypen-2026-11",
+      "date": "2026-11-20",
+      "artist": "엔하이픈",
+      "release": "THE SIN : PARALLEL WORLD",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/enhypen-2026-11"
+    },
+    {
+      "id": "release-nmixx-2026-dec-japan-best-album",
+      "date": "2026-12-09",
+      "artist": "엔믹스",
+      "release": "N=MIXX",
+      "type": "发行",
+      "artistKind": "group",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/item/nmixx-2026-dec-japan-best-album"
+    }
   ],
   "candidates": [],
   "lastUpdate": {
@@ -200,5 +2289,22 @@
       "K-pop 쇼케이스 공개방송 신청: fetch failed",
       "서울 팝업스토어 사전예약 이벤트: fetch failed"
     ]
-  }
+  },
+  "coverage": {
+    "year": 2026,
+    "months": 12,
+    "releaseCount": 174,
+    "activityCount": 24,
+    "source": "K-pop Today 结构化条目",
+    "scopeNote": "公开来源无法保证覆盖需要登录的 Weverse、Fan Cafe、X 预录与站台公告"
+  },
+  "runs": [
+    {
+      "at": "2026-11-05T07:49:36.351Z",
+      "ok": true,
+      "added": 190,
+      "changed": 0,
+      "errors": []
+    }
+  ]
 }

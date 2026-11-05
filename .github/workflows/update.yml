@@ -1,18 +1,19 @@
-name: Update official event data
+name: Hourly K-pop data update
 on:
   schedule:
-    - cron: '17 23 * * *'
+    - cron: '17 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
   pages: write
   id-token: write
 concurrency:
-  group: event-update
-  cancel-in-progress: false
+  group: kpop-data-update
+  cancel-in-progress: true
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -21,17 +22,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Collect official data
-        continue-on-error: true
-        env:
-          SEOUL_API_KEY: ${{ secrets.SEOUL_API_KEY }}
+      - name: Collect full-year K-pop releases and activities
         run: node scripts/update.mjs
-      - name: Save data and update log
+      - name: Save refreshed data
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/store.json
-          git diff --cached --quiet || git commit -m 'Update official events and collection log'
+          git diff --cached --quiet || git commit -m 'Hourly K-pop data refresh'
           git push
       - run: node scripts/build.mjs
       - uses: actions/configure-pages@v5

@@ -72,5 +72,8 @@ store.kpopEvents=dedupe([...(store.kpopEvents||[]),...activities],'id');
 store.updatedAt=new Date().toISOString();
 store.coverage={year:YEAR,months:12,releaseCount:store.comebacks.length,activityCount:store.kpopEvents.length,source:'K-pop Today 结构化条目',scopeNote:'公开来源无法保证覆盖需要登录的 Weverse、Fan Cafe、X 预录与站台公告'};
 store.runs=[{at:store.updatedAt,ok:errors.length===0,added:releases.length+activities.length,changed:0,errors:errors.slice(0,20)},...(store.runs||[])].slice(0,30);
+// Recheck registered official notices without discarding records on network failures.
+const noticeChecks=await pool([...new Set((store.kpopEvents||[]).filter(x=>x.id.startsWith('official-')).map(x=>x.sourceUrl))],3,async url=>({url,accessible:!!(await get(url))}));
+for(const check of noticeChecks){for(const event of store.kpopEvents||[]){if(event.sourceUrl===check.url){event.sourceLastCheckedAt=new Date().toISOString();event.sourceReachable=!!check.accessible;}}}
 await fs.writeFile(DATA,JSON.stringify(store,null,2));
 console.log(JSON.stringify({ok:errors.length===0,year:YEAR,releases:releases.length,activities:activities.length,errors:errors.length}));

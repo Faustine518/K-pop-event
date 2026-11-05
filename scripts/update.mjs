@@ -29,11 +29,18 @@ function artistsOf(value){
   return (Array.isArray(raw)?raw:[raw]).map(x=>typeof x==='string'?x:x?.name).filter(Boolean);
 }
 
-function classify(name=''){
- if(/사전\\s*녹화|사녹|sanok|pre.?record|预录/i.test(name))return '预录';
- if(/생방송|생방|본방송|生放|live broadcast/i.test(name))return '生放';
- if(/쇼케이스|showcase/i.test(name))return 'SC';
- return '其他';
+function classifyTypes(name=''){
+ const types=[];
+ if(/사전\s*녹화|사녹|sanok|pre[- ]?record|预录/i.test(name))types.push('预录');
+ if(/생방송|생방|본방송|生放|live broadcast/i.test(name))types.push('生放');
+ if(/쇼케이스|showcase|(^|\\s)SC($|\\s)/i.test(name))types.push('SC');
+ return types.length?[...new Set(types)]:['其他'];
+}
+function normalizeStoredType(event){
+ const explicit=['SC','预录','生放','其他'];
+ if(explicit.includes(event.type))return event;
+ const detected=classifyTypes([event.type,event.title].join(' '));
+ return {...event,type:detected[0]};
 }
 
 async function pool(items,limit,worker){
@@ -60,7 +67,9 @@ for(const page of itemPages){
     if(types.includes('MusicEvent')&&item.startDate){
       const artists=artistsOf(item);if(!artists.length)continue;
       const venue=typeof item.location==='string'?item.location:item.location?.name||'场地见原公告';
-      activities.push({id:`event-${page.url.split('/').pop()}`,date:String(item.startDate).slice(0,10),endDate:String(item.endDate||item.startDate).slice(0,10),artists,title:item.name,type:classify(item.name),venue,city:'韩国',participation:'预约、购票或参与条件请查看原公告',status:'confirmed',sourceUrl:page.url,sourceName:'K-pop Today 条目（含来源）'});
+      for(const activityType of classifyTypes(item.name)){
+        activities.push({id:`event-${page.url.split('/').pop()}-${activityType}`,date:String(item.startDate).slice(0,10),endDate:String(item.endDate||item.startDate).slice(0,10),artists,title:item.name,type:activityType,venue,city:'韩国',participation:'预约、购票或参与条件请查看原公告',status:'confirmed',sourceUrl:page.url,sourceName:'K-pop Today 条目（含来源）'});
+      }
     }
   }
 }
@@ -68,7 +77,7 @@ for(const page of itemPages){
 const dedupe=(items,key)=>[...new Map(items.map(x=>[x[key],x])).values()].sort((a,b)=>(a.date||'').localeCompare(b.date||''));
 const dedupeEvents=items=>[...new Map(items.map(x=>[`${x.date}|${String(x.title).toLowerCase().replace(/[^\p{L}\p{N}]+/gu,'')}`,x])).values()].sort((a,b)=>(a.date||'').localeCompare(b.date||''));
 store.comebacks=dedupe([...(store.comebacks||[]),...releases],'id');
-store.kpopEvents=dedupe([...(store.kpopEvents||[]),...activities],'id');
+store.kpopEvents=dedupe([...(store.kpopEvents||[]).map(normalizeStoredType),...activities],'id');
 store.updatedAt=new Date().toISOString();
 store.coverage={year:YEAR,months:12,releaseCount:store.comebacks.length,activityCount:store.kpopEvents.length,source:'K-pop Today 结构化条目',scopeNote:'公开来源无法保证覆盖需要登录的 Weverse、Fan Cafe、X 预录与站台公告'};
 store.runs=[{at:store.updatedAt,ok:errors.length===0,added:releases.length+activities.length,changed:0,errors:errors.slice(0,20)},...(store.runs||[])].slice(0,30);

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#17151f"><title>ONDA · 韩国活动雷达</title>
-  <link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="./calendar.css"><link rel="stylesheet" href="./apple.css">
+  <link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="./calendar.css"><link rel="stylesheet" href="./weverse.css">
 </head>
 <body>
   <header class="topbar">
@@ -15,7 +15,7 @@
   <main>
     <section id="kpopView" class="view">
       <div class="hero kpop-hero">
-        <div><p class="eyebrow">K-POP LIVE INTELLIGENCE · KST</p><h1>今天，爱豆在哪里？</h1><p>回归、Showcase、预录、公开录制、颁奖礼、路演、演唱会、Fan Meeting 与品牌站台，按日期和艺人集中查看。</p></div>
+        <div><p class="eyebrow">K-POP LIVE INTELLIGENCE · KST</p><h1>K-pop 活动</h1><p>回归、Showcase、预录、公开录制、颁奖礼、路演、演唱会、Fan Meeting 与品牌站台，按日期和艺人集中查看。</p></div>
         <div class="freshness"><span class="pulse"></span><div><b>云端自动更新</b><small id="kpopUpdatedAt">读取中…</small></div></div>
       </div>
       <section class="search-panel" aria-label="K-pop 活动筛选">
@@ -28,7 +28,7 @@
 
     <section id="eventsView" class="view hidden">
       <div class="hero">
-        <div><p class="eyebrow">SEOUL · BUSAN · BEYOND</p><h1>别错过，<em>正在发生</em>的韩国。</h1><p>从街头演出到偶像公开活动，只收录值得专程去、且有来源可查的低价情报。</p></div>
+        <div><p class="eyebrow">SEOUL · BUSAN · BEYOND</p><h1>韩国旅行活动</h1><p>从街头演出到偶像公开活动，只收录值得专程去、且有来源可查的低价情报。</p></div>
         <div class="freshness"><span class="pulse"></span><div><b>情报状态</b><small id="updatedAt">读取中…</small></div></div>
       </div>
 
@@ -48,7 +48,7 @@
     </section>
 
     <section id="calendarView" class="view hidden">
-      <div class="section-hero"><p class="eyebrow">K-POP RELEASE CALENDAR</p><h1>回归发行日历 <span>≠ 演唱会日历</span></h1><p>只收录能确认艺人、准确发行日和作品名的正式发行；组合、Solo 与小分队统一收录。当前已核实范围为 2026 年 10–12 月，未官宣月份不会用占位内容填充。</p></div>
+      <div class="section-hero"><p class="eyebrow">K-POP RELEASE CALENDAR</p><h1>回归发行日历</h1><p>只收录能确认艺人、准确发行日和作品名的正式发行；组合、Solo 与小分队统一收录。当前已核实范围为 2026 年 10–12 月，未官宣月份不会用占位内容填充。</p></div>
       <div class="calendar-filters" aria-label="艺人类型筛选"><button class="kind active" data-kind="all">全部</button><button class="kind" data-kind="group">组合 / 小分队</button><button class="kind" data-kind="solo">Solo</button><span id="monthCount"></span></div>
       <div class="monthbar"><button id="prevMonth">‹</button><h2 id="monthLabel"></h2><button id="nextMonth">›</button></div>
       <div id="calendar" class="calendar"></div>

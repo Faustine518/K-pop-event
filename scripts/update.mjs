@@ -30,15 +30,10 @@ function artistsOf(value){
 }
 
 function classify(name=''){
-  if(/팬미팅|fan\s*meeting|fancon|fan\s*concert/i.test(name))return 'Fan Meeting';
-  if(/쇼케이스|showcase/i.test(name))return 'Showcase';
-  if(/사전녹화|pre.?record/i.test(name))return '预录';
-  if(/공개방송|open\s*broadcast/i.test(name))return '公开录制';
-  if(/시상식|awards?/i.test(name))return '颁奖典礼';
-  if(/로드쇼|roadshow/i.test(name))return '路演';
-  if(/팝업|브랜드|brand|popup|pop-up/i.test(name))return '品牌站台';
-  if(/콘서트|concert|tour|live/i.test(name))return '演唱会';
-  return '其他';
+ if(/사전\\s*녹화|사녹|sanok|pre.?record|预录/i.test(name))return '预录';
+ if(/생방송|생방|본방송|生放|live broadcast/i.test(name))return '生放';
+ if(/쇼케이스|showcase/i.test(name))return 'SC';
+ return '其他';
 }
 
 async function pool(items,limit,worker){
@@ -72,8 +67,8 @@ for(const page of itemPages){
 
 const dedupe=(items,key)=>[...new Map(items.map(x=>[x[key],x])).values()].sort((a,b)=>(a.date||'').localeCompare(b.date||''));
 const dedupeEvents=items=>[...new Map(items.map(x=>[`${x.date}|${String(x.title).toLowerCase().replace(/[^\p{L}\p{N}]+/gu,'')}`,x])).values()].sort((a,b)=>(a.date||'').localeCompare(b.date||''));
-store.comebacks=dedupe(releases,'id');
-store.kpopEvents=dedupeEvents(activities);
+store.comebacks=dedupe([...(store.comebacks||[]),...releases],'id');
+store.kpopEvents=dedupe([...(store.kpopEvents||[]),...activities],'id');
 store.updatedAt=new Date().toISOString();
 store.coverage={year:YEAR,months:12,releaseCount:store.comebacks.length,activityCount:store.kpopEvents.length,source:'K-pop Today 结构化条目',scopeNote:'公开来源无法保证覆盖需要登录的 Weverse、Fan Cafe、X 预录与站台公告'};
 store.runs=[{at:store.updatedAt,ok:errors.length===0,added:releases.length+activities.length,changed:0,errors:errors.slice(0,20)},...(store.runs||[])].slice(0,30);

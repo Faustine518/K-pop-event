@@ -70,9 +70,9 @@ for(const page of itemPages){
 }
 
 const dedupe=(items,key)=>[...new Map(items.map(x=>[x[key],x])).values()].sort((a,b)=>(a.date||'').localeCompare(b.date||''));
-const retained=(store.kpopEvents||[]).filter(x=>!String(x.id).startsWith('event-'));
+const dedupeEvents=items=>[...new Map(items.map(x=>[`${x.date}|${String(x.title).toLowerCase().replace(/[^\p{L}\p{N}]+/gu,'')}`,x])).values()].sort((a,b)=>(a.date||'').localeCompare(b.date||''));
 store.comebacks=dedupe(releases,'id');
-store.kpopEvents=dedupe([...retained,...activities],'id');
+store.kpopEvents=dedupeEvents(activities);
 store.updatedAt=new Date().toISOString();
 store.coverage={year:YEAR,months:12,releaseCount:store.comebacks.length,activityCount:store.kpopEvents.length,source:'K-pop Today 结构化条目',scopeNote:'公开来源无法保证覆盖需要登录的 Weverse、Fan Cafe、X 预录与站台公告'};
 store.runs=[{at:store.updatedAt,ok:errors.length===0,added:releases.length+activities.length,changed:0,errors:errors.slice(0,20)},...(store.runs||[])].slice(0,30);

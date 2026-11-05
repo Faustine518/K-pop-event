@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T09:48:49.076Z",
+  "updatedAt": "2026-11-05T17:56:16.609Z",
   "events": [
     {
       "id": "seoul-autumn-festa-2026",
@@ -150,7 +150,7 @@
   ],
   "kpopEvents": [
     {
-      "id": "event-hwang-min-hyun-2026-fanmeeting-seoul",
+      "id": "event-hwang-min-hyun-2026-fanmeeting-seoul-其他",
       "date": "2026-10-16",
       "endDate": "2026-10-18",
       "artists": [
@@ -166,7 +166,7 @@
       "sourceName": "K-pop Today 条目（含来源）"
     },
     {
-      "id": "event-illit-2026-press-start-encore",
+      "id": "event-illit-2026-press-start-encore-其他",
       "date": "2026-10-17",
       "endDate": "2026-10-18",
       "artists": [
@@ -182,7 +182,7 @@
       "sourceName": "K-pop Today 条目（含来源）"
     },
     {
-      "id": "event-woodz-2026-seoul-encore-concert",
+      "id": "event-woodz-2026-seoul-encore-concert-其他",
       "date": "2026-10-31",
       "endDate": "2026-11-01",
       "artists": [
@@ -212,7 +212,9 @@
       "status": "confirmed",
       "sourceUrl": "https://xikers.bstage.in/surveys/6ae95a430344b73bf3ec3e5c",
       "sourceName": "xikers 官方公告",
-      "lastVerifiedAt": "2026-11-05T09:48:49.057Z"
+      "lastVerifiedAt": "2026-11-05T09:48:49.057Z",
+      "sourceLastCheckedAt": "2026-11-05T17:56:17.667Z",
+      "sourceReachable": true
     },
     {
       "id": "official-txt-sc-20261105",
@@ -229,10 +231,12 @@
       "endDate": "2026-11-05",
       "status": "confirmed",
       "sourceName": "Weverse 艺人官方公告",
-      "lastVerifiedAt": "2026-11-05T09:33:03.056Z"
+      "lastVerifiedAt": "2026-11-05T09:33:03.056Z",
+      "sourceLastCheckedAt": "2026-11-05T17:56:17.667Z",
+      "sourceReachable": true
     },
     {
-      "id": "event-max-changmin-2026-live-session-resonance",
+      "id": "event-max-changmin-2026-live-session-resonance-其他",
       "date": "2026-11-06",
       "endDate": "2026-11-08",
       "artists": [
@@ -262,10 +266,12 @@
       "endDate": "2026-11-06",
       "status": "confirmed",
       "sourceName": "Weverse 艺人官方公告",
-      "lastVerifiedAt": "2026-11-05T09:33:03.069Z"
+      "lastVerifiedAt": "2026-11-05T09:33:03.069Z",
+      "sourceLastCheckedAt": "2026-11-05T17:56:17.667Z",
+      "sourceReachable": true
     },
     {
-      "id": "event-exo-2026-planet-6-exhorizon-dot-seoul",
+      "id": "event-exo-2026-planet-6-exhorizon-dot-seoul-其他",
       "date": "2026-11-06",
       "endDate": "2026-11-08",
       "artists": [
@@ -296,7 +302,9 @@
       "endDate": "2026-11-06",
       "status": "confirmed",
       "sourceName": "Weverse 艺人官方公告",
-      "lastVerifiedAt": "2026-11-05T09:33:03.069Z"
+      "lastVerifiedAt": "2026-11-05T09:33:03.069Z",
+      "sourceLastCheckedAt": "2026-11-05T17:56:17.667Z",
+      "sourceReachable": true
     },
     {
       "id": "official-tws-sanok-20261106",
@@ -313,7 +321,9 @@
       "endDate": "2026-11-06",
       "status": "confirmed",
       "sourceName": "Weverse 艺人官方公告",
-      "lastVerifiedAt": "2026-11-05T09:33:03.069Z"
+      "lastVerifiedAt": "2026-11-05T09:33:03.069Z",
+      "sourceLastCheckedAt": "2026-11-05T17:56:17.667Z",
+      "sourceReachable": true
     },
     {
       "id": "official-xiaojun-sanok-20261106",
@@ -331,7 +341,9 @@
       "endDate": "2026-11-06",
       "status": "confirmed",
       "sourceName": "Weverse 艺人官方公告",
-      "lastVerifiedAt": "2026-11-05T09:33:03.069Z"
+      "lastVerifiedAt": "2026-11-05T09:33:03.069Z",
+      "sourceLastCheckedAt": "2026-11-05T17:56:17.667Z",
+      "sourceReachable": true
     },
     {
       "id": "official-zb1-sanok-20261106",
@@ -348,7 +360,9 @@
       "status": "confirmed",
       "sourceUrl": "https://artist.mnetplus.world/main/stg/zerobaseone/tag/%ED%8C%AC%ED%81%B4%EB%9F%BD%EC%84%9D",
       "sourceName": "ZEROBASEONE Mnet Plus 官方公告列表",
-      "lastVerifiedAt": "2026-11-05T09:48:49.057Z"
+      "lastVerifiedAt": "2026-11-05T09:48:49.057Z",
+      "sourceLastCheckedAt": "2026-11-05T17:56:17.667Z",
+      "sourceReachable": true
     },
     {
       "id": "official-zb1-live-20261107",
@@ -365,7 +379,9 @@
       "status": "confirmed",
       "sourceUrl": "https://artist.mnetplus.world/main/stg/zerobaseone/tag/%ED%8C%AC%ED%81%B4%EB%9F%BD%EC%84%9D",
       "sourceName": "ZEROBASEONE Mnet Plus 官方公告列表",
-      "lastVerifiedAt": "2026-11-05T09:48:49.057Z"
+      "lastVerifiedAt": "2026-11-05T09:48:49.057Z",
+      "sourceLastCheckedAt": "2026-11-05T17:56:17.667Z",
+      "sourceReachable": true
     },
     {
       "id": "official-zb1-sanok-20261107",
@@ -382,10 +398,12 @@
       "status": "confirmed",
       "sourceUrl": "https://artist.mnetplus.world/main/stg/zerobaseone/surveys/6ae88910c9ba517bd4fd462c",
       "sourceName": "ZEROBASEONE Mnet Plus 官方公告",
-      "lastVerifiedAt": "2026-11-05T09:48:49.057Z"
+      "lastVerifiedAt": "2026-11-05T09:48:49.057Z",
+      "sourceLastCheckedAt": "2026-11-05T17:56:17.667Z",
+      "sourceReachable": true
     },
     {
-      "id": "event-xdinary-heroes-2026-concert-impulse",
+      "id": "event-xdinary-heroes-2026-concert-impulse-其他",
       "date": "2026-11-13",
       "endDate": "2026-11-15",
       "artists": [
@@ -401,7 +419,7 @@
       "sourceName": "K-pop Today 条目（含来源）"
     },
     {
-      "id": "event-jang-woo-young-2026-solo-concert-seoul",
+      "id": "event-jang-woo-young-2026-solo-concert-seoul-其他",
       "date": "2026-11-14",
       "endDate": "2026-11-15",
       "artists": [
@@ -417,7 +435,7 @@
       "sourceName": "K-pop Today 条目（含来源）"
     },
     {
-      "id": "event-eric-2026-fanmeeting-seoul",
+      "id": "event-eric-2026-fanmeeting-seoul-其他",
       "date": "2026-11-14",
       "endDate": "2026-11-14",
       "artists": [
@@ -433,7 +451,7 @@
       "sourceName": "K-pop Today 条目（含来源）"
     },
     {
-      "id": "event-billlie-2026-5th-anniversary-fan-concert-the-heist-squad",
+      "id": "event-billlie-2026-5th-anniversary-fan-concert-the-heist-squad-其他",
       "date": "2026-11-15",
       "endDate": "2026-11-15",
       "artists": [
@@ -449,7 +467,7 @@
       "sourceName": "K-pop Today 条目（含来源）"
     },
     {
-      "id": "event-close-your-eyes-2026-fancon-seoul",
+      "id": "event-close-your-eyes-2026-fancon-seoul-其他",
       "date": "2026-11-20",
       "endDate": "2026-11-22",
       "artists": [
@@ -465,7 +483,7 @@
       "sourceName": "K-pop Today 条目（含来源）"
     },
     {
-      "id": "event-nmixx-2026-world-tour-encore-incheon",
+      "id": "event-nmixx-2026-world-tour-encore-incheon-其他",
       "date": "2026-11-27",
       "endDate": "2026-11-29",
       "artists": [
@@ -481,7 +499,7 @@
       "sourceName": "K-pop Today 条目（含来源）"
     },
     {
-      "id": "event-aespa-2026-fanmeeting-my-bogosipda-aega",
+      "id": "event-aespa-2026-fanmeeting-my-bogosipda-aega-其他",
       "date": "2026-11-28",
       "endDate": "2026-11-29",
       "artists": [
@@ -497,7 +515,7 @@
       "sourceName": "K-pop Today 条目（含来源）"
     },
     {
-      "id": "event-and2ble-2026-fancon-winter-inside-seoul",
+      "id": "event-and2ble-2026-fancon-winter-inside-seoul-其他",
       "date": "2026-12-04",
       "endDate": "2026-12-06",
       "artists": [
@@ -513,7 +531,7 @@
       "sourceName": "K-pop Today 条目（含来源）"
     },
     {
-      "id": "event-and2ble-2026-fancon-winter-inside",
+      "id": "event-and2ble-2026-fancon-winter-inside-其他",
       "date": "2026-12-05",
       "endDate": "2026-12-06",
       "artists": [
@@ -529,7 +547,7 @@
       "sourceName": "K-pop Today 条目（含来源）"
     },
     {
-      "id": "event-fly-to-the-sky-2026-tour-ll",
+      "id": "event-fly-to-the-sky-2026-tour-ll-其他",
       "date": "2026-12-05",
       "endDate": "2026-12-13",
       "artists": [
@@ -545,7 +563,7 @@
       "sourceName": "K-pop Today 条目（含来源）"
     },
     {
-      "id": "event-n-flying-2026-live-once-upon-a-snowball",
+      "id": "event-n-flying-2026-live-once-upon-a-snowball-其他",
       "date": "2026-12-24",
       "endDate": "2026-12-26",
       "artists": [
@@ -588,7 +606,7 @@
       "artist": "JOOHONEY",
       "release": "光 (INSANITY)",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/joohoney-insanity"
     },
@@ -598,7 +616,7 @@
       "artist": "河成云",
       "release": "Tell The World",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/ha-sung-woon-tell-the-world"
     },
@@ -618,7 +636,7 @@
       "artist": "CHUU",
       "release": "XO, My Cyberlove",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/chuu-xo-my-cyberlove"
     },
@@ -738,7 +756,7 @@
       "artist": "梁耀燮",
       "release": "Unloved Echo",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/yang-yoseop-unloved-echo"
     },
@@ -798,7 +816,7 @@
       "artist": "金圣圭",
       "release": "OFF THE MAP",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/kim-sung-kyu-off-the-map"
     },
@@ -818,7 +836,7 @@
       "artist": "曹承衍",
       "release": "Archive. 1",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/woodz-archive-1"
     },
@@ -838,7 +856,7 @@
       "artist": "温流",
       "release": "TOUGH LOVE",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/onew-tough-love"
     },
@@ -848,7 +866,7 @@
       "artist": "崔叡娜",
       "release": "LOVE CATCHER",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/yena-love-catcher"
     },
@@ -888,7 +906,7 @@
       "artist": "有娜",
       "release": "Ice Cream",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/yuna-ice-cream"
     },
@@ -908,7 +926,7 @@
       "artist": "玟星",
       "release": "REV",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/moonbyul-rev"
     },
@@ -918,7 +936,7 @@
       "artist": "IRENE",
       "release": "Biggest Fan",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/irene-biggest-fan"
     },
@@ -928,7 +946,7 @@
       "artist": "金元弼",
       "release": "Unpiltered",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/wonpil-unpiltered"
     },
@@ -938,7 +956,7 @@
       "artist": "T.O.P",
       "release": "ANOTHER DIMENSION",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/top-another-dimension"
     },
@@ -968,7 +986,7 @@
       "artist": "夏贤尚",
       "release": "New Boat",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/ha-hyunsang-new-boat"
     },
@@ -1008,7 +1026,7 @@
       "artist": "泰容",
       "release": "Rock Solid (Feat. Anderson .Paak)",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/taeyong-rock-solid"
     },
@@ -1138,7 +1156,7 @@
       "artist": "太阳",
       "release": "QUINTESSENCE",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/taeyang-quintessence"
     },
@@ -1148,7 +1166,7 @@
       "artist": "泰容",
       "release": "WYLD",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/taeyong-wyld"
     },
@@ -1178,7 +1196,7 @@
       "artist": "尹产贺",
       "release": "NO REASON",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/yoon-san-ha-no-reason"
     },
@@ -1348,7 +1366,7 @@
       "artist": "YERIN",
       "release": "REACH YOU",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/yerin-reach-you"
     },
@@ -1368,7 +1386,7 @@
       "artist": "林在范",
       "release": "TR.EE",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/jay-b-tr-ee"
     },
@@ -1378,7 +1396,7 @@
       "artist": "韩知城",
       "release": "back to life",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/han-back-to-life"
     },
@@ -1478,7 +1496,7 @@
       "artist": "柳基现",
       "release": "BORDERLINE",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/kihyun-borderline"
     },
@@ -1498,7 +1516,7 @@
       "artist": "然竣",
       "release": "NO LABELS: PART 02",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/yeonjun-no-labels-part-02"
     },
@@ -1508,7 +1526,7 @@
       "artist": "在玹",
       "release": "99 Degrees",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/jaehyun-99-degrees"
     },
@@ -1528,7 +1546,7 @@
       "artist": "宣美",
       "release": "Forever July",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/sunmi-forever-july"
     },
@@ -1558,7 +1576,7 @@
       "artist": "孝琳",
       "release": "OriginaLyn",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/hyolyn-originalyn"
     },
@@ -1568,7 +1586,7 @@
       "artist": "JENNIE",
       "release": "Less than a Lover",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/jennie-less-than-a-lover"
     },
@@ -1668,7 +1686,7 @@
       "artist": "郑恩地",
       "release": "Summer, I",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/jeong-eunji-summer-i"
     },
@@ -1718,7 +1736,7 @@
       "artist": "JENNIE",
       "release": "Fallen Angel",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/jennie-fallen-angel"
     },
@@ -1728,7 +1746,7 @@
       "artist": "泰民",
       "release": "PHASE 1 : Soft Violence",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/taemin-phase-1-soft-violence"
     },
@@ -1748,7 +1766,7 @@
       "artist": "请夏",
       "release": "México",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/chungha-mexico"
     },
@@ -1768,7 +1786,7 @@
       "artist": "权恩妃",
       "release": "DEJAVU",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/kwon-eunbi-dejavu"
     },
@@ -1778,7 +1796,7 @@
       "artist": "LISA",
       "release": "SaWaDiKa",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/lisa-sawadika"
     },
@@ -1798,7 +1816,7 @@
       "artist": "JISOO",
       "release": "CLICK",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/jisoo-click"
     },
@@ -1808,7 +1826,7 @@
       "artist": "珉豪",
       "release": "Make it hot",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/minho-make-it-hot"
     },
@@ -1828,7 +1846,7 @@
       "artist": "田小娟",
       "release": "끝내주는 인생 (What a Wonderful Life)",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/soyeon-what-a-wonderful-life"
     },
@@ -1838,7 +1856,7 @@
       "artist": "都敬秀",
       "release": "DOPAMINE",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/do-dopamine"
     },
@@ -1858,7 +1876,7 @@
       "artist": "IU",
       "release": "이 별로부터",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/iu-2026-09"
     },
@@ -1888,7 +1906,7 @@
       "artist": "ROSÉ",
       "release": "new trick",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/rose-new-trick"
     },
@@ -1928,7 +1946,7 @@
       "artist": "艺声",
       "release": "Where We Are",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/yesung-where-we-are"
     },
@@ -1948,7 +1966,7 @@
       "artist": "金在焕",
       "release": "Love, From Here",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/kim-jae-hwan-love-from-here"
     },
@@ -1978,7 +1996,7 @@
       "artist": "宋雨琦",
       "release": "二十七 (27)",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/yuqi-27"
     },
@@ -2008,7 +2026,7 @@
       "artist": "成韩彬",
       "release": "DEAD:ALIVE",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/sung-hanbin-dead-alive"
     },
@@ -2068,7 +2086,7 @@
       "artist": "沈昌珉",
       "release": "All Of My Life",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/max-changmin-all-of-my-life"
     },
@@ -2078,7 +2096,7 @@
       "artist": "Youngseo (ALLDAY PROJECT)",
       "release": "DARKROOM (나의 유죄인간 OST Part.1)",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/youngseo-2026-my-guilty-human-ost"
     },
@@ -2188,7 +2206,7 @@
       "artist": "YOON SEOBIN",
       "release": "Slow Motion",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/yoon-seobin-slow-motion"
     },
@@ -2238,7 +2256,7 @@
       "artist": "彩领",
       "release": "Lovesick",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/chaeryeong-lovesick"
     },
@@ -2258,7 +2276,7 @@
       "artist": "圭贤",
       "release": "CONTINUE",
       "type": "发行",
-      "artistKind": "group",
+      "artistKind": "solo",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/kyuhyun-continue"
     },
@@ -2321,11 +2339,17 @@
     "months": 12,
     "releaseCount": 174,
     "activityCount": 25,
-    "source": "K-pop Today 结构化条目 + 艺人官方公告",
-    "scopeNote": "每 15 分钟刷新已登记来源；官方平台登录墙、临时公告和未登记社群可能延迟，页面不宣称绝对全量。",
-    "officialNoticeCount": 9
+    "source": "K-pop Today 结构化条目",
+    "scopeNote": "公开来源无法保证覆盖需要登录的 Weverse、Fan Cafe、X 预录与站台公告"
   },
   "runs": [
+    {
+      "at": "2026-11-05T17:56:16.609Z",
+      "ok": true,
+      "added": 190,
+      "changed": 0,
+      "errors": []
+    },
     {
       "at": "2026-11-05T08:06:03.965Z",
       "ok": true,

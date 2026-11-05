@@ -8,18 +8,18 @@
 <body>
   <header class="topbar">
     <nav aria-label="主导航"><button class="nav active" data-view="kpop">K-pop 活动</button><button class="nav" data-view="events">韩国旅行活动</button><button class="nav" data-view="calendar">全年回归日历</button></nav>
-    <button id="updateBtn" class="update-btn"><span class="pulse-mini"></span> 云端自动更新</button>
+    <button id="updateBtn" class="update-btn"><span class="pulse-mini"></span> 每小时更新</button>
   </header>
 
   <main>
     <section id="kpopView" class="view">
       <div class="hero kpop-hero">
         <div><p class="eyebrow">K-POP LIVE INTELLIGENCE · KST</p><h1>K-pop 活动</h1><p>回归、Showcase、预录、公开录制、颁奖礼、路演、演唱会、Fan Meeting 与品牌站台，按日期和艺人集中查看。</p></div>
-        <div class="freshness"><span class="pulse"></span><div><b>云端自动更新</b><small id="kpopUpdatedAt">读取中…</small></div></div>
+        <div class="freshness"><span class="pulse"></span><div><b>每小时更新</b><small id="kpopUpdatedAt">读取中…</small></div></div>
       </div>
       <section class="search-panel" aria-label="K-pop 活动筛选">
         <label class="search"><span>⌕</span><input id="kpopQuery" placeholder="搜索团体、成员、活动或地点"></label>
-        <div class="filter-row"><input type="date" id="kpopFrom"><input type="date" id="kpopTo"><select id="kpopType"><option value="">所有类型</option><option>回归发行</option><option>SC</option><option>预录</option><option>生放</option><option>其他</option></select><select id="kpopStatus"><option value="">所有核实状态</option><option value="confirmed">已核实</option><option value="lead">实时线索</option></select><button id="kpopReset" class="ghost">清除</button></div>
+        <div class="filter-row"><label class="date-field">开始日期<input type="date" id="kpopFrom"></label><label class="date-field">结束日期（可选）<input type="date" id="kpopTo"></label><select id="kpopType"><option value="">所有类型</option><option>回归发行</option><option>SC</option><option>预录</option><option>生放</option><option>其他</option></select><select id="kpopStatus"><option value="">所有核实状态</option><option value="confirmed">已核实</option><option value="lead">实时线索</option></select><button id="kpopReset" class="ghost">清除</button></div>
       </section>
       <div class="result-head"><div><span class="kicker">LIVE K-POP SCHEDULE</span><h2>活动时间线</h2></div><p id="kpopCount"></p></div>
       <section id="kpopTimeline" class="timeline" aria-live="polite"></section>

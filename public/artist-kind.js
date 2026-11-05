@@ -1,0 +1,3 @@
+// Explicit performer registry: a single byArtist object can represent a whole group.
+export const SOLO_NAMES = new Set('彩领|曹承衍|成韩彬|崔叡娜|都敬秀|圭贤|韩知城|河成云|金圣圭|金元弼|金在焕|梁耀燮|林在范|柳基现|珉豪|请夏|权恩妃|然竣|沈昌珉|宋雨琦|太阳|泰民|泰容|田小娟|温流|玟星|夏贤尚|孝琳|宣美|艺声|尹产贺|有娜|在玹|郑恩地|CHUU|IRENE|IU|JENNIE|JISOO|JOOHONEY|LISA|ROSÉ|T.O.P|YERIN|YOON SEOBIN|Youngseo (ALLDAY PROJECT)'.split('|'));
+export function artistKind(name){return SOLO_NAMES.has(name)?'solo':'group'}

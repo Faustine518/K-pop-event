@@ -49,7 +49,7 @@ async function pool(items,limit,worker){
 const store=JSON.parse(await fs.readFile(DATA,'utf8'));
 const monthUrls=Array.from({length:12},(_,i)=>`${ORIGIN}/month/${YEAR}-${String(i+1).padStart(2,'0')}`);
 const monthPages=await pool(monthUrls,4,async url=>({url,html:await get(url)}));
-const itemUrls=[...new Set(monthPages.flatMap(x=>x.html?[...x.html.matchAll(/https:\/\/k-poptoday\.com\/item\/[a-z0-9-]+/g)].map(m=>m[0]):[]))];
+const itemUrls=[...new Set(monthPages.flatMap(x=>x.html?[...x.html.matchAll(/https:\/\/k-poptoday\.com\/item\/[a-z0-9-]+/g)].map(m=>m[0].replace(`${ORIGIN}/item/`,`${ORIGIN}/zh-hans/item/`)):[]))];
 const itemPages=await pool(itemUrls,8,async url=>({url,html:await get(url)}));
 const releases=[];const activities=[];const errors=[];
 

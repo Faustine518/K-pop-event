@@ -9,3 +9,22 @@
 .dot.solo{background:var(--hot)}
 .dot.event{background:var(--blue)}
 @media(max-width:620px){#monthCount{width:100%;margin-left:0}}
+.pulse-mini{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--lime);margin-right:5px}
+.kpop-hero h1{font-style:italic}
+.timeline{display:grid;gap:14px}
+.timeline-day{display:grid;grid-template-columns:90px 1fr;border-top:1px solid var(--ink);padding-top:14px}
+.timeline-date{display:flex;flex-direction:column}
+.timeline-date strong{font:48px/1 Georgia;color:var(--hot)}
+.timeline-date span{font-size:11px;color:var(--muted);margin-top:6px}
+.timeline-items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.kpop-item{background:var(--card);border:1px solid var(--line);padding:18px;position:relative}
+.kpop-item:hover{border-color:var(--ink);box-shadow:5px 5px 0 var(--lime)}
+.kpop-item h3{font:24px Georgia,"Noto Serif SC",serif;margin:16px 0 4px}
+.kpop-item h4{font-size:14px;margin:0 0 16px;line-height:1.45}
+.kpop-item p{font-size:12px;color:var(--muted);margin:6px 0}
+.kpop-item a{display:inline-block;margin-top:12px;color:var(--ink);font-size:12px;font-weight:800}
+.event-type,.verify{font-size:10px;padding:4px 6px;margin-right:6px;border:1px solid var(--line)}
+.event-type{background:var(--ink);color:white;border-color:var(--ink)}
+.verify.confirmed{background:var(--lime)}
+.verify.lead{background:#eee;color:#655}
+@media(max-width:700px){.timeline-day{grid-template-columns:58px 1fr}.timeline-date strong{font-size:36px}.timeline-items{grid-template-columns:1fr}.kpop-item h3{font-size:21px}}

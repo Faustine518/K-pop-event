@@ -1,0 +1,11 @@
+.calendar-filters{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.calendar-filters .kind{border:1px solid var(--line);background:var(--card);padding:9px 13px;font:inherit;font-size:12px;cursor:pointer}
+.calendar-filters .kind.active{background:var(--ink);color:white;border-color:var(--ink)}
+#monthCount{margin-left:auto;color:var(--muted);font-size:12px}
+.comeback{border-left:3px solid transparent}
+.comeback.solo{border-left-color:var(--hot)}
+.comeback.reported{background:#625d68}
+.dot.reported{background:#625d68}
+.dot.solo{background:var(--hot)}
+.dot.event{background:var(--blue)}
+@media(max-width:620px){#monthCount{width:100%;margin-left:0}}

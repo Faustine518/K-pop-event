@@ -8,12 +8,25 @@
 <body>
   <header class="topbar">
     <a class="brand" href="#"><span class="logo">O</span><span>ONDA<small>韩国活动雷达</small></span></a>
-    <nav aria-label="主导航"><button class="nav active" data-view="events">活动发现</button><button class="nav" data-view="calendar">回归日历</button><button class="nav" data-view="sources">情报中心</button></nav>
-    <button id="updateBtn" class="update-btn"><span>↻</span> 立即更新</button>
+    <nav aria-label="主导航"><button class="nav active" data-view="kpop">K-pop 活动</button><button class="nav" data-view="events">韩国旅行活动</button><button class="nav" data-view="calendar">全年回归日历</button><button class="nav" data-view="sources">情报中心</button></nav>
+    <button id="updateBtn" class="update-btn"><span class="pulse-mini"></span> 云端自动更新</button>
   </header>
 
   <main>
-    <section id="eventsView" class="view">
+    <section id="kpopView" class="view">
+      <div class="hero kpop-hero">
+        <div><p class="eyebrow">K-POP LIVE INTELLIGENCE · KST</p><h1>今天，爱豆在哪里？</h1><p>回归、Showcase、预录、公开录制、颁奖礼、路演、演唱会、Fan Meeting 与品牌站台，按日期和艺人集中查看。</p></div>
+        <div class="freshness"><span class="pulse"></span><div><b>云端自动更新</b><small id="kpopUpdatedAt">读取中…</small></div></div>
+      </div>
+      <section class="search-panel" aria-label="K-pop 活动筛选">
+        <label class="search"><span>⌕</span><input id="kpopQuery" placeholder="搜索团体、成员、活动或地点"></label>
+        <div class="filter-row"><input type="date" id="kpopFrom"><input type="date" id="kpopTo"><select id="kpopType"><option value="">所有类型</option><option>回归发行</option><option>Showcase</option><option>预录</option><option>公开录制</option><option>颁奖典礼</option><option>路演</option><option>演唱会</option><option>Fan Meeting</option><option>品牌站台</option><option>其他</option></select><select id="kpopStatus"><option value="">所有核实状态</option><option value="confirmed">已核实</option><option value="lead">实时线索</option></select><button id="kpopReset" class="ghost">清除</button></div>
+      </section>
+      <div class="result-head"><div><span class="kicker">LIVE K-POP SCHEDULE</span><h2>活动时间线</h2></div><p id="kpopCount"></p></div>
+      <section id="kpopTimeline" class="timeline" aria-live="polite"></section>
+    </section>
+
+    <section id="eventsView" class="view hidden">
       <div class="hero">
         <div><p class="eyebrow">SEOUL · BUSAN · BEYOND</p><h1>别错过，<em>正在发生</em>的韩国。</h1><p>从街头演出到偶像公开活动，只收录值得专程去、且有来源可查的低价情报。</p></div>
         <div class="freshness"><span class="pulse"></span><div><b>情报状态</b><small id="updatedAt">读取中…</small></div></div>

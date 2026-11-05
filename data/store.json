@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T08:06:03.965Z",
+  "updatedAt": "2026-11-05T09:48:49.076Z",
   "events": [
     {
       "id": "seoul-autumn-festa-2026",
@@ -157,7 +157,7 @@
         "黄旼炫"
       ],
       "title": "黄旼炫 2026 황민현 팬미팅 [도원경] - 서울 (2026 黄旼炫粉丝见面会［桃源境］首尔)",
-      "type": "Fan Meeting",
+      "type": "其他",
       "venue": "COEX Artium 友利银行厅（首尔）",
       "city": "韩国",
       "participation": "预约、购票或参与条件请查看原公告",
@@ -173,7 +173,7 @@
         "ILLIT"
       ],
       "title": "ILLIT ILLIT LIVE 'PRESS START♥' ENCORE in KOREA",
-      "type": "演唱会",
+      "type": "其他",
       "venue": "INSPIRE Arena（仁川）",
       "city": "韩国",
       "participation": "预约、购票或参与条件请查看原公告",
@@ -189,13 +189,80 @@
         "曹承衍"
       ],
       "title": "曹承衍 2026 WOODZ WORLD TOUR Archive. 1 : Completed",
-      "type": "演唱会",
+      "type": "其他",
       "venue": "KSPO DOME（首尔）",
       "city": "韩国",
       "participation": "预约、购票或参与条件请查看原公告",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/woodz-2026-seoul-encore-concert",
       "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "official-xikers-sanok-20261105",
+      "date": "2026-11-05",
+      "endDate": "2026-11-05",
+      "artists": [
+        "xikers"
+      ],
+      "title": "Show! Music Core 预录 · 15:30 KST",
+      "type": "预录",
+      "venue": "MBC 上岩新大楼公开厅",
+      "city": "首尔",
+      "participation": "报名已截止（11/3）；400 人，须核验身份、会员资格、专辑/音源及应援棒等材料。",
+      "status": "confirmed",
+      "sourceUrl": "https://xikers.bstage.in/surveys/6ae95a430344b73bf3ec3e5c",
+      "sourceName": "xikers 官方公告",
+      "lastVerifiedAt": "2026-11-05T09:48:49.057Z"
+    },
+    {
+      "id": "official-txt-sc-20261105",
+      "date": "2026-11-05",
+      "artists": [
+        "TOMORROW X TOGETHER"
+      ],
+      "title": "PERFECT STORM Comeback Showcase · 10:15 / 18:20 KST",
+      "type": "SC",
+      "venue": "CJ ENM 一山制作中心",
+      "city": "高阳",
+      "participation": "报名已截止（10/23）；MOA Membership 抽选，须本人证件及保密承诺。活动含事前录制。",
+      "sourceUrl": "https://weverse.io/txt/notice/40244",
+      "endDate": "2026-11-05",
+      "status": "confirmed",
+      "sourceName": "Weverse 艺人官方公告",
+      "lastVerifiedAt": "2026-11-05T09:33:03.056Z"
+    },
+    {
+      "id": "event-max-changmin-2026-live-session-resonance",
+      "date": "2026-11-06",
+      "endDate": "2026-11-08",
+      "artists": [
+        "沈昌珉"
+      ],
+      "title": "沈昌珉 MAX CHANGMIN LIVE SESSION : RESONANCE",
+      "type": "其他",
+      "venue": "YES24 Live Hall（首尔）",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/zh-hans/item/max-changmin-2026-live-session-resonance",
+      "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "official-tws-fm-20261106",
+      "date": "2026-11-06",
+      "artists": [
+        "TWS"
+      ],
+      "title": "音银后迷你 FM · 13:00 KST",
+      "type": "其他",
+      "venue": "汝矣岛汉江公园水光舞台前",
+      "city": "首尔",
+      "participation": "指定席报名已截止；官方说明户外可参观，天气可能导致变更。",
+      "sourceUrl": "https://weverse.io/tws/notice/40724",
+      "endDate": "2026-11-06",
+      "status": "confirmed",
+      "sourceName": "Weverse 艺人官方公告",
+      "lastVerifiedAt": "2026-11-05T09:33:03.069Z"
     },
     {
       "id": "event-exo-2026-planet-6-exhorizon-dot-seoul",
@@ -214,20 +281,108 @@
       "sourceName": "K-pop Today 条目（含来源）"
     },
     {
-      "id": "event-max-changmin-2026-live-session-resonance",
+      "id": "official-xiaojun-live-20261106",
       "date": "2026-11-06",
-      "endDate": "2026-11-08",
       "artists": [
-        "沈昌珉"
+        "XIAOJUN",
+        "WayV"
       ],
-      "title": "沈昌珉 MAX CHANGMIN LIVE SESSION : RESONANCE",
-      "type": "演唱会",
-      "venue": "YES24 Live Hall（首尔）",
-      "city": "韩国",
-      "participation": "预约、购票或参与条件请查看原公告",
+      "title": "Music Bank 生放 · 入场人数现场通知",
+      "type": "生放",
+      "venue": "KBS 别馆公开厅",
+      "city": "首尔",
+      "participation": "官方确认参加生放；参与人数及变更现场通知，不保证有入场名额，须符合公告条件。",
+      "sourceUrl": "https://weverse.io/wayv/notice/40636",
+      "endDate": "2026-11-06",
       "status": "confirmed",
-      "sourceUrl": "https://k-poptoday.com/zh-hans/item/max-changmin-2026-live-session-resonance",
-      "sourceName": "K-pop Today 条目（含来源）"
+      "sourceName": "Weverse 艺人官方公告",
+      "lastVerifiedAt": "2026-11-05T09:33:03.069Z"
+    },
+    {
+      "id": "official-tws-sanok-20261106",
+      "date": "2026-11-06",
+      "artists": [
+        "TWS"
+      ],
+      "title": "Music Bank 预录 · 10:40 KST",
+      "type": "预录",
+      "venue": "KBS 别馆",
+      "city": "首尔",
+      "participation": "报名已截止（11/4）；42 Membership、指定专辑购买、音源及应援棒等条件见公告。",
+      "sourceUrl": "https://weverse.io/tws/notice/40724",
+      "endDate": "2026-11-06",
+      "status": "confirmed",
+      "sourceName": "Weverse 艺人官方公告",
+      "lastVerifiedAt": "2026-11-05T09:33:03.069Z"
+    },
+    {
+      "id": "official-xiaojun-sanok-20261106",
+      "date": "2026-11-06",
+      "artists": [
+        "XIAOJUN",
+        "WayV"
+      ],
+      "title": "Music Bank 预录 · 14:25 KST",
+      "type": "预录",
+      "venue": "KBS 别馆公开厅",
+      "city": "首尔",
+      "participation": "报名已截止（11/4）；WayZenNi 会员、年满15岁，须按公告携带本人证件等材料。",
+      "sourceUrl": "https://weverse.io/wayv/notice/40636",
+      "endDate": "2026-11-06",
+      "status": "confirmed",
+      "sourceName": "Weverse 艺人官方公告",
+      "lastVerifiedAt": "2026-11-05T09:33:03.069Z"
+    },
+    {
+      "id": "official-zb1-sanok-20261106",
+      "date": "2026-11-06",
+      "endDate": "2026-11-06",
+      "artists": [
+        "ZEROBASEONE EMP"
+      ],
+      "title": "Music Bank 预录 · 具体时间见官方公告",
+      "type": "预录",
+      "venue": "KBS 公开厅",
+      "city": "首尔",
+      "participation": "粉丝俱乐部席位；申请与入场资格、材料要求以官方公告为准。",
+      "status": "confirmed",
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/zerobaseone/tag/%ED%8C%AC%ED%81%B4%EB%9F%BD%EC%84%9D",
+      "sourceName": "ZEROBASEONE Mnet Plus 官方公告列表",
+      "lastVerifiedAt": "2026-11-05T09:48:49.057Z"
+    },
+    {
+      "id": "official-zb1-live-20261107",
+      "date": "2026-11-07",
+      "endDate": "2026-11-07",
+      "artists": [
+        "ZEROBASEONE EMP"
+      ],
+      "title": "Show! Music Core 生放 · RUN",
+      "type": "生放",
+      "venue": "MBC 上岩新大楼公开厅",
+      "city": "首尔",
+      "participation": "粉丝俱乐部席位；入场名额及集合要求以当日官方公告和工作人员通知为准。",
+      "status": "confirmed",
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/zerobaseone/tag/%ED%8C%AC%ED%81%B4%EB%9F%BD%EC%84%9D",
+      "sourceName": "ZEROBASEONE Mnet Plus 官方公告列表",
+      "lastVerifiedAt": "2026-11-05T09:48:49.057Z"
+    },
+    {
+      "id": "official-zb1-sanok-20261107",
+      "date": "2026-11-07",
+      "endDate": "2026-11-07",
+      "artists": [
+        "ZEROBASEONE EMP"
+      ],
+      "title": "Show! Music Core 预录 · RUN",
+      "type": "预录",
+      "venue": "MBC 上岩新大楼公开厅",
+      "city": "首尔",
+      "participation": "报名已截止（11/3）；350 人 + 候补 20 人，限 15 岁以上，须携带身份证件、会员卡、应援棒、专辑与音源证明。",
+      "status": "confirmed",
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/zerobaseone/surveys/6ae88910c9ba517bd4fd462c",
+      "sourceName": "ZEROBASEONE Mnet Plus 官方公告",
+      "lastVerifiedAt": "2026-11-05T09:48:49.057Z"
     },
     {
       "id": "event-xdinary-heroes-2026-concert-impulse",
@@ -237,28 +392,12 @@
         "Xdinary Heroes"
       ],
       "title": "Xdinary Heroes Xdinary Heroes Concert 〈IMPULSE〉",
-      "type": "演唱会",
+      "type": "其他",
       "venue": "INSPIRE Arena（仁川）",
       "city": "韩国",
       "participation": "预约、购票或参与条件请查看原公告",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/xdinary-heroes-2026-concert-impulse",
-      "sourceName": "K-pop Today 条目（含来源）"
-    },
-    {
-      "id": "event-eric-2026-fanmeeting-seoul",
-      "date": "2026-11-14",
-      "endDate": "2026-11-14",
-      "artists": [
-        "ERIC (THE BOYZ)"
-      ],
-      "title": "ERIC (THE BOYZ) 꽃보다 손영재 (花样孙英宰)",
-      "type": "其他",
-      "venue": "光云大学东海文化艺术馆大剧场（首尔）",
-      "city": "韩国",
-      "participation": "预约、购票或参与条件请查看原公告",
-      "status": "confirmed",
-      "sourceUrl": "https://k-poptoday.com/zh-hans/item/eric-2026-fanmeeting-seoul",
       "sourceName": "K-pop Today 条目（含来源）"
     },
     {
@@ -278,6 +417,22 @@
       "sourceName": "K-pop Today 条目（含来源）"
     },
     {
+      "id": "event-eric-2026-fanmeeting-seoul",
+      "date": "2026-11-14",
+      "endDate": "2026-11-14",
+      "artists": [
+        "ERIC (THE BOYZ)"
+      ],
+      "title": "ERIC (THE BOYZ) 꽃보다 손영재 (花样孙英宰)",
+      "type": "其他",
+      "venue": "光云大学东海文化艺术馆大剧场（首尔）",
+      "city": "韩国",
+      "participation": "预约、购票或参与条件请查看原公告",
+      "status": "confirmed",
+      "sourceUrl": "https://k-poptoday.com/zh-hans/item/eric-2026-fanmeeting-seoul",
+      "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
       "id": "event-billlie-2026-5th-anniversary-fan-concert-the-heist-squad",
       "date": "2026-11-15",
       "endDate": "2026-11-15",
@@ -285,7 +440,7 @@
         "Billlie"
       ],
       "title": "Billlie Billlie 5th Anniversary Fan Concert 〈The Heist Squad〉",
-      "type": "Fan Meeting",
+      "type": "其他",
       "venue": "西江大学玛丽厅大剧场（首尔）",
       "city": "韩国",
       "participation": "预约、购票或参与条件请查看原公告",
@@ -381,7 +536,7 @@
         "Fly to the Sky"
       ],
       "title": "Fly to the Sky 2026 FLY TO THE SKY TOUR : ll",
-      "type": "演唱会",
+      "type": "其他",
       "venue": "庆北大学大礼堂（大邱）、高阳Aram Nuri Aram剧场（高阳）",
       "city": "韩国",
       "participation": "预约、购票或参与条件请查看原公告",
@@ -397,100 +552,13 @@
         "N.Flying"
       ],
       "title": "N.Flying 2026 N.Flying LIVE ‘Once Upon a Snowball’",
-      "type": "演唱会",
+      "type": "其他",
       "venue": "高丽大学华政体育馆（首尔）",
       "city": "韩国",
       "participation": "预约、购票或参与条件请查看原公告",
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/n-flying-2026-live-once-upon-a-snowball",
       "sourceName": "K-pop Today 条目（含来源）"
-    },
-    {
-      "id": "official-txt-sc-20261105",
-      "date": "2026-11-05",
-      "artists": [
-        "TOMORROW X TOGETHER"
-      ],
-      "title": "PERFECT STORM Comeback Showcase · 10:15 / 18:20 KST",
-      "type": "SC",
-      "venue": "CJ ENM 一山制作中心",
-      "city": "高阳",
-      "participation": "报名已截止（10/23）；MOA Membership 抽选，须本人证件及保密承诺。活动含事前录制。",
-      "sourceUrl": "https://weverse.io/txt/notice/40244",
-      "endDate": "2026-11-05",
-      "status": "confirmed",
-      "sourceName": "Weverse 艺人官方公告",
-      "lastVerifiedAt": "2026-11-05T09:33:03.056Z"
-    },
-    {
-      "id": "official-tws-sanok-20261106",
-      "date": "2026-11-06",
-      "artists": [
-        "TWS"
-      ],
-      "title": "Music Bank 预录 · 10:40 KST",
-      "type": "预录",
-      "venue": "KBS 别馆",
-      "city": "首尔",
-      "participation": "报名已截止（11/4）；42 Membership、指定专辑购买、音源及应援棒等条件见公告。",
-      "sourceUrl": "https://weverse.io/tws/notice/40724",
-      "endDate": "2026-11-06",
-      "status": "confirmed",
-      "sourceName": "Weverse 艺人官方公告",
-      "lastVerifiedAt": "2026-11-05T09:33:03.069Z"
-    },
-    {
-      "id": "official-tws-fm-20261106",
-      "date": "2026-11-06",
-      "artists": [
-        "TWS"
-      ],
-      "title": "音银后迷你 FM · 13:00 KST",
-      "type": "其他",
-      "venue": "汝矣岛汉江公园水光舞台前",
-      "city": "首尔",
-      "participation": "指定席报名已截止；官方说明户外可参观，天气可能导致变更。",
-      "sourceUrl": "https://weverse.io/tws/notice/40724",
-      "endDate": "2026-11-06",
-      "status": "confirmed",
-      "sourceName": "Weverse 艺人官方公告",
-      "lastVerifiedAt": "2026-11-05T09:33:03.069Z"
-    },
-    {
-      "id": "official-xiaojun-sanok-20261106",
-      "date": "2026-11-06",
-      "artists": [
-        "XIAOJUN",
-        "WayV"
-      ],
-      "title": "Music Bank 预录 · 14:25 KST",
-      "type": "预录",
-      "venue": "KBS 别馆公开厅",
-      "city": "首尔",
-      "participation": "报名已截止（11/4）；WayZenNi 会员、年满15岁，须按公告携带本人证件等材料。",
-      "sourceUrl": "https://weverse.io/wayv/notice/40636",
-      "endDate": "2026-11-06",
-      "status": "confirmed",
-      "sourceName": "Weverse 艺人官方公告",
-      "lastVerifiedAt": "2026-11-05T09:33:03.069Z"
-    },
-    {
-      "id": "official-xiaojun-live-20261106",
-      "date": "2026-11-06",
-      "artists": [
-        "XIAOJUN",
-        "WayV"
-      ],
-      "title": "Music Bank 生放 · 入场人数现场通知",
-      "type": "生放",
-      "venue": "KBS 别馆公开厅",
-      "city": "首尔",
-      "participation": "官方确认参加生放；参与人数及变更现场通知，不保证有入场名额，须符合公告条件。",
-      "sourceUrl": "https://weverse.io/wayv/notice/40636",
-      "endDate": "2026-11-06",
-      "status": "confirmed",
-      "sourceName": "Weverse 艺人官方公告",
-      "lastVerifiedAt": "2026-11-05T09:33:03.069Z"
     }
   ],
   "comebacks": [
@@ -2252,9 +2320,10 @@
     "year": 2026,
     "months": 12,
     "releaseCount": 174,
-    "activityCount": 16,
-    "source": "K-pop Today 结构化条目",
-    "scopeNote": "公开来源无法保证覆盖需要登录的 Weverse、Fan Cafe、X 预录与站台公告"
+    "activityCount": 25,
+    "source": "K-pop Today 结构化条目 + 艺人官方公告",
+    "scopeNote": "每 15 分钟刷新已登记来源；官方平台登录墙、临时公告和未登记社群可能延迟，页面不宣称绝对全量。",
+    "officialNoticeCount": 9
   },
   "runs": [
     {

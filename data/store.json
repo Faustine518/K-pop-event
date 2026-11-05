@@ -404,6 +404,93 @@
       "status": "confirmed",
       "sourceUrl": "https://k-poptoday.com/zh-hans/item/n-flying-2026-live-once-upon-a-snowball",
       "sourceName": "K-pop Today 条目（含来源）"
+    },
+    {
+      "id": "official-txt-sc-20261105",
+      "date": "2026-11-05",
+      "artists": [
+        "TOMORROW X TOGETHER"
+      ],
+      "title": "PERFECT STORM Comeback Showcase · 10:15 / 18:20 KST",
+      "type": "SC",
+      "venue": "CJ ENM 一山制作中心",
+      "city": "高阳",
+      "participation": "报名已截止（10/23）；MOA Membership 抽选，须本人证件及保密承诺。活动含事前录制。",
+      "sourceUrl": "https://weverse.io/txt/notice/40244",
+      "endDate": "2026-11-05",
+      "status": "confirmed",
+      "sourceName": "Weverse 艺人官方公告",
+      "lastVerifiedAt": "2026-11-05T09:33:03.056Z"
+    },
+    {
+      "id": "official-tws-sanok-20261106",
+      "date": "2026-11-06",
+      "artists": [
+        "TWS"
+      ],
+      "title": "Music Bank 预录 · 10:40 KST",
+      "type": "预录",
+      "venue": "KBS 别馆",
+      "city": "首尔",
+      "participation": "报名已截止（11/4）；42 Membership、指定专辑购买、音源及应援棒等条件见公告。",
+      "sourceUrl": "https://weverse.io/tws/notice/40724",
+      "endDate": "2026-11-06",
+      "status": "confirmed",
+      "sourceName": "Weverse 艺人官方公告",
+      "lastVerifiedAt": "2026-11-05T09:33:03.069Z"
+    },
+    {
+      "id": "official-tws-fm-20261106",
+      "date": "2026-11-06",
+      "artists": [
+        "TWS"
+      ],
+      "title": "音银后迷你 FM · 13:00 KST",
+      "type": "其他",
+      "venue": "汝矣岛汉江公园水光舞台前",
+      "city": "首尔",
+      "participation": "指定席报名已截止；官方说明户外可参观，天气可能导致变更。",
+      "sourceUrl": "https://weverse.io/tws/notice/40724",
+      "endDate": "2026-11-06",
+      "status": "confirmed",
+      "sourceName": "Weverse 艺人官方公告",
+      "lastVerifiedAt": "2026-11-05T09:33:03.069Z"
+    },
+    {
+      "id": "official-xiaojun-sanok-20261106",
+      "date": "2026-11-06",
+      "artists": [
+        "XIAOJUN",
+        "WayV"
+      ],
+      "title": "Music Bank 预录 · 14:25 KST",
+      "type": "预录",
+      "venue": "KBS 别馆公开厅",
+      "city": "首尔",
+      "participation": "报名已截止（11/4）；WayZenNi 会员、年满15岁，须按公告携带本人证件等材料。",
+      "sourceUrl": "https://weverse.io/wayv/notice/40636",
+      "endDate": "2026-11-06",
+      "status": "confirmed",
+      "sourceName": "Weverse 艺人官方公告",
+      "lastVerifiedAt": "2026-11-05T09:33:03.069Z"
+    },
+    {
+      "id": "official-xiaojun-live-20261106",
+      "date": "2026-11-06",
+      "artists": [
+        "XIAOJUN",
+        "WayV"
+      ],
+      "title": "Music Bank 生放 · 入场人数现场通知",
+      "type": "生放",
+      "venue": "KBS 别馆公开厅",
+      "city": "首尔",
+      "participation": "官方确认参加生放；参与人数及变更现场通知，不保证有入场名额，须符合公告条件。",
+      "sourceUrl": "https://weverse.io/wayv/notice/40636",
+      "endDate": "2026-11-06",
+      "status": "confirmed",
+      "sourceName": "Weverse 艺人官方公告",
+      "lastVerifiedAt": "2026-11-05T09:33:03.069Z"
     }
   ],
   "comebacks": [

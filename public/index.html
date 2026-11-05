@@ -1,1 +1,62 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>SEOUL SIGNAL · 韩国活动雷达</title><link rel="stylesheet" href="/style.css"><body><header><b>◈ SEOUL SIGNAL</b><span>韩国本地活动情报 / 개인 여행 가이드</span></header><main><div class="eyebrow">YOUR NEXT KOREAN MOMENT</div><h1>走进韩国，<br>发现计划之外的精彩<span>↗</span></h1><p>从弘大现场到城市快闪，把值得参与的本地活动装进行程。</p><nav><button data-tab="events" class="active">探索活动</button><button data-tab="calendar">K-pop 回归日历</button><button data-tab="sources">检索与数据管理</button></nav><section class="status"><span id="status">正在读取本地情报…</span><button id="update">↻ 立即更新</button></section><section id="events"><div class="filters"><label>目的地<select id="city"><option value="">全部城市</option><option>首尔</option><option>釜山</option><option>仁川</option><option>京畿</option></select></label><label>开始日期<input id="from" type="date"></label><label>结束日期<input id="to" type="date"></label><label>类别<select id="category"><option value="">所有活动</option><option>现场演出</option><option>K-pop</option><option>展览文化</option><option>快闪品牌</option></select></label><label>预算<select id="price"><option value="">全部费用</option><option value="0">免费</option><option value="10000">≤ ₩10,000</option><option value="30000">≤ ₩30,000</option></select></label><label>搜索<input id="q" placeholder="艺人、活动、场馆…"></label></div><div class="row"><h2>发现值得出发的活动</h2><button id="reset">重置筛选</button></div><div id="cards"></div></section><section id="calendar" hidden><div class="row"><h2>回归日历 <small>音乐发行资讯 · 不代表可参与线下活动</small></h2><input type="month" id="month"></div><div id="days"></div></section><section id="sources" hidden><h2>从韩语信息源开始发现</h2><p>自动来源覆盖首尔文化活动；釜山、快闪、公开录制与回归公告需要定向检索后核实导入。社交平台内容不会自动抓取。</p><div class="filters"><label>城市 / 韩语<input id="scity" value="서울"></label><label>月份<input id="smonth" type="month"></label><label>关键词<input id="keyword" value="무료 공연 팝업 사전예약"></label><button id="search">在 Naver 搜索 ↗</button></div><p><a href="https://culture.seoul.go.kr" target="_blank" rel="noopener">首尔文化门户 ↗</a> · <a href="https://www.visitbusan.net" target="_blank" rel="noopener">Visit Busan ↗</a> · <a href="https://weverse.io" target="_blank" rel="noopener">Weverse 公告 ↗</a></p><h2>本地数据</h2><p>导入已核实的活动 JSON；相同 id 更新记录，其余数据保留。导入前请核对时间、费用、参与要求和取消状态。</p><input type="file" id="import" accept="application/json"><button id="export">导出备份</button><h2>更新记录</h2><div id="logs"></div></section><footer>SEOUL SIGNAL / 韩国时间 KST · 信息可能变动，出发前请再次确认官方公告。</footer></main><dialog id="detail"><button id="close">关闭 ×</button><div id="detailBody"></div></dialog><script type="module" src="/app.js"></script></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#17151f"><title>ONDA · 韩国活动雷达</title>
+  <link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="./calendar.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="logo">O</span><span>ONDA<small>韩国活动雷达</small></span></a>
+    <nav aria-label="主导航"><button class="nav active" data-view="events">活动发现</button><button class="nav" data-view="calendar">回归日历</button><button class="nav" data-view="sources">情报中心</button></nav>
+    <button id="updateBtn" class="update-btn"><span>↻</span> 立即更新</button>
+  </header>
+
+  <main>
+    <section id="eventsView" class="view">
+      <div class="hero">
+        <div><p class="eyebrow">SEOUL · BUSAN · BEYOND</p><h1>别错过，<em>正在发生</em>的韩国。</h1><p>从街头演出到偶像公开活动，只收录值得专程去、且有来源可查的低价情报。</p></div>
+        <div class="freshness"><span class="pulse"></span><div><b>情报状态</b><small id="updatedAt">读取中…</small></div></div>
+      </div>
+
+      <section class="search-panel" aria-label="活动筛选">
+        <label class="search"><span>⌕</span><input id="query" placeholder="搜索活动、地点或关键词"></label>
+        <div class="filter-row">
+          <label><span>从</span><input type="date" id="dateFrom"></label><label><span>到</span><input type="date" id="dateTo"></label>
+          <select id="city"><option value="">所有城市</option><option>首尔</option><option>釜山</option></select>
+          <select id="category"><option value="">全部类型</option></select>
+          <select id="price"><option value="">全部费用</option><option value="free">免费</option><option value="mixed">免费/付费混合</option><option value="low">低价</option></select>
+          <button id="resetBtn" class="ghost">清除</button>
+        </div>
+      </section>
+
+      <div class="result-head"><div><span class="kicker">CURATED PICKS</span><h2>近期值得去</h2></div><p id="count"></p></div>
+      <section id="cards" class="cards" aria-live="polite"></section>
+    </section>
+
+    <section id="calendarView" class="view hidden">
+      <div class="section-hero"><p class="eyebrow">K-POP COMEBACK CALENDAR</p><h1>回归日历 <span>≠ 线下活动</span></h1><p>组合、Solo 与小分队统一收录，并区分已确认与媒体汇总。线下 Showcase、公开录制等可参与活动会单独进入活动列表。</p></div>
+      <div class="calendar-filters" aria-label="艺人类型筛选"><button class="kind active" data-kind="all">全部</button><button class="kind" data-kind="group">组合 / 小分队</button><button class="kind" data-kind="solo">Solo</button><span id="monthCount"></span></div>
+      <div class="monthbar"><button id="prevMonth">‹</button><h2 id="monthLabel"></h2><button id="nextMonth">›</button></div>
+      <div id="calendar" class="calendar"></div>
+      <div class="legend"><span><i class="dot confirmed"></i>已官宣/可靠来源</span><span><i class="dot reported"></i>媒体汇总，建议复核</span><span><i class="dot solo"></i>Solo</span><span><i class="dot event"></i>可参与线下活动（若有）</span></div>
+    </section>
+
+    <section id="sourcesView" class="view hidden">
+      <div class="section-hero"><p class="eyebrow">INTELLIGENCE DESK</p><h1>情报中心</h1><p>更新器先把新发现放进“待核实线索”，不会未经确认直接发布为正式活动。</p></div>
+      <div class="status-grid">
+        <article class="status-card"><span>最近更新</span><strong id="statusTime">—</strong><p id="statusMessage">—</p></article>
+        <article class="status-card accent"><span>待核实线索</span><strong id="leadCount">0</strong><p>最多保留最近 200 条，正式活动数据不会被覆盖。</p></article>
+        <article class="status-card"><span>正式活动</span><strong id="eventCount">0</strong><p>来源、日期、费用和参与方式分字段保存。</p></article>
+      </div>
+      <div class="source-layout">
+        <section><div class="result-head"><div><span class="kicker">REVIEW QUEUE</span><h2>最新线索</h2></div></div><div id="leads" class="leads"></div></section>
+        <aside class="method"><h3>检索机制</h3><ol><li><b>韩语组合检索</b><span>城市 × 日期 × 类型 × 参与方式</span></li><li><b>可信来源优先</b><span>政府/主办方 → 场馆 → 票务 → 社交媒体</span></li><li><b>先发现，后核实</b><span>候选线索不会自动混入正式活动</span></li><li><b>稳定去重</b><span>以来源链接与活动指纹合并重复项</span></li></ol><p class="note">提示：自动更新依赖网络。新闻线索仅用于发现，参与前务必打开官方来源确认变更。</p></aside>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="detail"><button class="close" aria-label="关闭">×</button><div id="detailBody"></div></dialog>
+  <div id="toast" role="status"></div>
+  <script type="module" src="./app.js"></script>
+</body></html>

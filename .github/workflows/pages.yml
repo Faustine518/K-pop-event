@@ -21,6 +21,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Collect public events
+        continue-on-error: true
+        run: node scripts/update.mjs
       - run: node scripts/build.mjs
       - uses: actions/configure-pages@v5
         with:
@@ -30,3 +33,4 @@ jobs:
           path: dist
       - uses: actions/deploy-pages@v4
         id: deployment
+

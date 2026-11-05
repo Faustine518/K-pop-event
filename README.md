@@ -45,3 +45,6 @@ JSON 文件须为数组；下面仅是字段说明，不能当作真实活动导
 
 仓库包含自动部署工作流。若部署提示权限不足，在 Settings → Pages 将 Source 设为 GitHub Actions，然后在 Actions 运行 Publish website。每天韩国时间约 08:17 自动采集（GitHub 调度可能延迟）；手动更新按钮进入 Actions，登录后点击 Run workflow。请在 Settings → Secrets and variables → Actions 添加 SEOUL_API_KEY。未设置时更新日志明确报错。Pages 为静态网站，导入数据保存在当前浏览器；跨设备共享请将核实数据合并进 data/store.json。不要在公开仓库提交密钥或个人报名信息。
 
+
+新增无需密钥的 Visit Busan 官方列表采集（当前及下个月）。本地页面打开自动触发更新，定时任务使用相同采集器。官方列表只核实标题、日期、来源；费用、地点、预约等字段未核实时明确标记。GitHub Pages 不能由匿名访客打开时直接触发后台检索：在线版展示部署缓存并每日由 Actions 更新，手动更新仍需进入 Actions。尚未实现全类别、全城市、社交媒体自动搜索，请勿将其视为完整需求已交付。
+

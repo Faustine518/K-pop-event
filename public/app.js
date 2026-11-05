@@ -25,5 +25,5 @@ $$('#query,#dateFrom,#dateTo,#city,#category,#price').forEach(el=>el.addEventLis
 $$('.nav').forEach(b=>b.onclick=()=>{$$('.nav').forEach(x=>x.classList.toggle('active',x===b));$$('.view').forEach(v=>v.classList.add('hidden'));$('#'+b.dataset.view+'View').classList.remove('hidden')});
 $('#prevMonth').onclick=()=>{calDate=new Date(calDate.getFullYear(),calDate.getMonth()-1,1);renderCalendar()};$('#nextMonth').onclick=()=>{calDate=new Date(calDate.getFullYear(),calDate.getMonth()+1,1);renderCalendar()};$$('.kind').forEach(b=>b.onclick=()=>{$$('.kind').forEach(x=>x.classList.toggle('active',x===b));calendarKind=b.dataset.kind;renderCalendar()});
 $('#detail .close').onclick=()=>$('#detail').close();$('#detail').onclick=e=>{if(e.target===$('#detail'))$('#detail').close()};
-$('#updateBtn').onclick=async()=>{toast('数据由 GitHub Actions 每小时自动更新');await load()};
+$('#updateBtn').onclick=async()=>{toast('数据由 GitHub Actions 每 15 分钟自动更新');await load()};
 load().catch(e=>toast('数据读取失败：'+e.message));

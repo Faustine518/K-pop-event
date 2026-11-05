@@ -1,0 +1,8 @@
+import fs from 'node:fs/promises';
+await fs.mkdir('dist',{recursive:true});
+await fs.cp('public','dist',{recursive:true});
+let html=await fs.readFile('dist/index.html','utf8');html=html.replace('href="/style.css"','href="./style.css"').replace('src="/app.js"','src="./app.js"');await fs.writeFile('dist/index.html',html);
+await fs.copyFile('data/store.json','dist/store.json');
+let app=await fs.readFile('dist/app.js','utf8');
+app=`const nativeFetch=window.fetch.bind(window);window.fetch=async(url,options)=>{if(url==='/api/data'){const r=await nativeFetch('./store.json?t='+Date.now());const d=await r.json();const local=JSON.parse(localStorage.getItem('korea-events')||'[]');const map=new Map(d.events.map(e=>[e.id,e]));local.forEach(e=>map.set(e.id,e));return new Response(JSON.stringify({...d,events:[...map.values()],configured:false}));}if(url==='/api/import'){try{const items=JSON.parse(options.body);if(!Array.isArray(items)||items.some(e=>!e.id||!e.title||!e.start||!e.source||!Array.isArray(e.categories)))throw Error('需要完整字段及唯一 id');const old=JSON.parse(localStorage.getItem('korea-events')||'[]');const map=new Map(old.map(e=>[e.id,e]));items.forEach(e=>map.set(e.id,e));localStorage.setItem('korea-events',JSON.stringify([...map.values()]));return new Response(JSON.stringify({added:items.length,changed:0}));}catch(e){return new Response(JSON.stringify({error:e.message}),{status:400});}}if(url==='/api/update'){window.open('https://github.com/Faustine518/K-pop-event/actions/workflows/update.yml','_blank','noopener');return new Response(JSON.stringify({error:'请在 GitHub Actions 点击 Run workflow；完成后刷新本站。'}),{status:400});}return nativeFetch(url,options);};\n`+app;
+await fs.writeFile('dist/app.js',app);await fs.writeFile('dist/.nojekyll','');

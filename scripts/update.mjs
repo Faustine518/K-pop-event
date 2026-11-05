@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import { artistKind } from '../public/artist-kind.js';
 
 const DATA = new URL('../data/store.json', import.meta.url);
 const YEAR = Number(process.env.KPOP_YEAR || new Intl.DateTimeFormat('en',{timeZone:'Asia/Seoul',year:'numeric'}).format(new Date()));
@@ -59,7 +60,7 @@ for(const page of itemPages){
     const types=Array.isArray(item['@type'])?item['@type']:[item['@type']];
     if(types.includes('MusicAlbum')&&item.datePublished){
       const artists=artistsOf(item);if(!artists.length)continue;
-      releases.push({id:`release-${page.url.split('/').pop()}`,date:String(item.datePublished).slice(0,10),artist:artists.join(' × '),release:item.name,type:'发行',artistKind:artists.length>1?'group':'group',status:'confirmed',sourceUrl:page.url});
+      releases.push({id:`release-${page.url.split('/').pop()}`,date:String(item.datePublished).slice(0,10),artist:artists.join(' × '),release:item.name,type:'发行',artistKind:artistKind(artists.join(' × ')),status:'confirmed',sourceUrl:page.url});
     }
     if(types.includes('MusicEvent')&&item.startDate){
       const artists=artistsOf(item);if(!artists.length)continue;

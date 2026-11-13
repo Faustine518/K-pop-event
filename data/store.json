@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T23:26:46.469Z",
+  "updatedAt": "2026-11-13T03:32:53.307Z",
   "events": [
     {
       "id": "seoul-autumn-festa-2026",
@@ -213,7 +213,7 @@
       "sourceUrl": "https://xikers.bstage.in/surveys/6ae95a430344b73bf3ec3e5c",
       "sourceName": "xikers 官方公告",
       "lastVerifiedAt": "2026-11-05T09:48:49.057Z",
-      "sourceLastCheckedAt": "2026-11-12T23:26:47.785Z",
+      "sourceLastCheckedAt": "2026-11-13T03:32:54.955Z",
       "sourceReachable": true
     },
     {
@@ -232,7 +232,7 @@
       "status": "confirmed",
       "sourceName": "Weverse 艺人官方公告",
       "lastVerifiedAt": "2026-11-05T09:33:03.056Z",
-      "sourceLastCheckedAt": "2026-11-12T23:26:47.785Z",
+      "sourceLastCheckedAt": "2026-11-13T03:32:54.956Z",
       "sourceReachable": true
     },
     {
@@ -267,7 +267,7 @@
       "status": "confirmed",
       "sourceName": "Weverse 艺人官方公告",
       "lastVerifiedAt": "2026-11-05T09:33:03.069Z",
-      "sourceLastCheckedAt": "2026-11-12T23:26:47.785Z",
+      "sourceLastCheckedAt": "2026-11-13T03:32:54.956Z",
       "sourceReachable": true
     },
     {
@@ -303,7 +303,7 @@
       "status": "confirmed",
       "sourceName": "Weverse 艺人官方公告",
       "lastVerifiedAt": "2026-11-05T09:33:03.069Z",
-      "sourceLastCheckedAt": "2026-11-12T23:26:47.785Z",
+      "sourceLastCheckedAt": "2026-11-13T03:32:54.956Z",
       "sourceReachable": true
     },
     {
@@ -322,7 +322,7 @@
       "status": "confirmed",
       "sourceName": "Weverse 艺人官方公告",
       "lastVerifiedAt": "2026-11-05T09:33:03.069Z",
-      "sourceLastCheckedAt": "2026-11-12T23:26:47.785Z",
+      "sourceLastCheckedAt": "2026-11-13T03:32:54.956Z",
       "sourceReachable": true
     },
     {
@@ -342,7 +342,7 @@
       "status": "confirmed",
       "sourceName": "Weverse 艺人官方公告",
       "lastVerifiedAt": "2026-11-05T09:33:03.069Z",
-      "sourceLastCheckedAt": "2026-11-12T23:26:47.785Z",
+      "sourceLastCheckedAt": "2026-11-13T03:32:54.956Z",
       "sourceReachable": true
     },
     {
@@ -361,7 +361,7 @@
       "sourceUrl": "https://artist.mnetplus.world/main/stg/zerobaseone/tag/%ED%8C%AC%ED%81%B4%EB%9F%BD%EC%84%9D",
       "sourceName": "ZEROBASEONE Mnet Plus 官方公告列表",
       "lastVerifiedAt": "2026-11-05T09:48:49.057Z",
-      "sourceLastCheckedAt": "2026-11-12T23:26:47.785Z",
+      "sourceLastCheckedAt": "2026-11-13T03:32:54.956Z",
       "sourceReachable": true
     },
     {
@@ -380,7 +380,7 @@
       "sourceUrl": "https://artist.mnetplus.world/main/stg/zerobaseone/tag/%ED%8C%AC%ED%81%B4%EB%9F%BD%EC%84%9D",
       "sourceName": "ZEROBASEONE Mnet Plus 官方公告列表",
       "lastVerifiedAt": "2026-11-05T09:48:49.057Z",
-      "sourceLastCheckedAt": "2026-11-12T23:26:47.785Z",
+      "sourceLastCheckedAt": "2026-11-13T03:32:54.956Z",
       "sourceReachable": true
     },
     {
@@ -399,7 +399,7 @@
       "sourceUrl": "https://artist.mnetplus.world/main/stg/zerobaseone/surveys/6ae88910c9ba517bd4fd462c",
       "sourceName": "ZEROBASEONE Mnet Plus 官方公告",
       "lastVerifiedAt": "2026-11-05T09:48:49.057Z",
-      "sourceLastCheckedAt": "2026-11-12T23:26:47.785Z",
+      "sourceLastCheckedAt": "2026-11-13T03:32:54.956Z",
       "sourceReachable": true
     },
     {
@@ -2344,6 +2344,13 @@
   },
   "runs": [
     {
+      "at": "2026-11-13T03:32:53.307Z",
+      "ok": true,
+      "added": 189,
+      "changed": 0,
+      "errors": []
+    },
+    {
       "at": "2026-11-12T23:26:46.469Z",
       "ok": true,
       "added": 189,
@@ -2541,13 +2548,6 @@
     },
     {
       "at": "2026-11-05T17:56:16.609Z",
-      "ok": true,
-      "added": 190,
-      "changed": 0,
-      "errors": []
-    },
-    {
-      "at": "2026-11-05T08:06:03.965Z",
       "ok": true,
       "added": 190,
       "changed": 0,
